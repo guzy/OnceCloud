@@ -3,16 +3,16 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.beyondsphere</groupId>
-    <artifactId>beyondsphere</artifactId>
+    <groupId>com.oncecloud</groupId>
+    <artifactId>oncecloud</artifactId>
     <version>2.1-SNAPSHOT</version>
   </parent>
   
-  <groupId>com.beyondsphere.admin</groupId>
-  <artifactId>beyondsphere-web-admin</artifactId>
+  <groupId>com.oncecloud.admin</groupId>
+  <artifactId>oncecloud-web-admin</artifactId>
   <version>2.2-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>beyondsphere-web-admin Maven Webapp</name>
+  <name>oncecloud-web-admin Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
   <dependencies>
@@ -38,33 +38,33 @@
 	    <systemPath>${project.basedir}/lib/vim25.jar</systemPath>  
 	</dependency>
     <dependency>
-      <groupId>com.beyondsphere.docker</groupId>
-	  <artifactId>beyondsphere-docker-api</artifactId>
+      <groupId>com.oncecloud.docker</groupId>
+	  <artifactId>oncecloud-docker-api</artifactId>
 	  <version>2.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>com.beyondsphere.vsphere</groupId>
-	  <artifactId>beyondsphere-vsphere-api</artifactId>
+      <groupId>com.oncecloud.vsphere</groupId>
+	  <artifactId>oncecloud-vsphere-api</artifactId>
 	  <version>2.2-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>com.beyondsphere.common</groupId>
-	  <artifactId>beyondsphere-web-common</artifactId>
+      <groupId>com.oncecloud.common</groupId>
+	  <artifactId>oncecloud-web-common</artifactId>
 	  <version>2.2-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>com.beyondsphere.core</groupId>
-	  <artifactId>beyondsphere-web-core</artifactId>
+      <groupId>com.oncecloud.core</groupId>
+	  <artifactId>oncecloud-web-core</artifactId>
 	  <version>2.2-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>com.beyondsphere.service</groupId>
-	  <artifactId>beyondsphere-web-service</artifactId>
+      <groupId>com.oncecloud.service</groupId>
+	  <artifactId>oncecloud-web-service</artifactId>
 	  <version>2.2-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>com.beyondsphere.xen</groupId>
-      <artifactId>beyondsphere-xen-api</artifactId>
+      <groupId>com.oncecloud.xen</groupId>
+      <artifactId>oncecloud-xen-api</artifactId>
       <version>2.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
@@ -76,7 +76,7 @@
 				<version>9.2.6.v20141205</version>
 				<configuration>
 					<webApp>
-						<contextPath>/beyondsphere</contextPath>
+						<contextPath>/oncecloud</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -98,6 +98,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>beyondsphere-web-admin</finalName>
+		<finalName>oncecloud-web-admin</finalName>
 	</build>
 </project>

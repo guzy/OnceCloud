@@ -3,15 +3,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.beyondsphere</groupId>
-    <artifactId>beyondsphere</artifactId>
+    <groupId>com.oncecloud</groupId>
+    <artifactId>oncecloud</artifactId>
     <version>2.1-SNAPSHOT</version>
   </parent>
   
-  <groupId>com.beyondsphere.dao</groupId>
-  <artifactId>beyondsphere-web-dao</artifactId>
+  <groupId>com.oncecloud.dao</groupId>
+  <artifactId>oncecloud-web-dao</artifactId>
   <version>2.2-SNAPSHOT</version>
-  <name>beyondsphere-web-dao</name>
+  <name>oncecloud-web-dao</name>
   <url>http://maven.apache.org</url>
   
   <dependencies>
@@ -40,8 +40,8 @@
 		<version>${mysql-connector-java}</version>
 	</dependency>
 	<dependency>
-      <groupId>com.beyondsphere.common</groupId>
-	  <artifactId>beyondsphere-web-common</artifactId>
+      <groupId>com.oncecloud.common</groupId>
+	  <artifactId>oncecloud-web-common</artifactId>
 	  <version>2.2-SNAPSHOT</version>
     </dependency>
     <!-- 

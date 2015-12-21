@@ -3,16 +3,16 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.beyondsphere</groupId>
-    <artifactId>beyondsphere</artifactId>
+    <groupId>com.oncecloud</groupId>
+    <artifactId>oncecloud</artifactId>
     <version>2.1-SNAPSHOT</version>
   </parent>
   
-  <groupId>com.beyondsphere.user</groupId>
-  <artifactId>beyondsphere-web-user</artifactId>
+  <groupId>com.oncecloud.user</groupId>
+  <artifactId>oncecloud-web-user</artifactId>
   <version>2.2-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>beyondsphere-web-user Maven Webapp</name>
+  <name>oncecloud-web-user Maven Webapp</name>
   <dependencies>
 	<dependency>
 		<groupId>org.springframework</groupId>
@@ -50,28 +50,28 @@
 	    <systemPath>${project.basedir}/lib/vxIPMI.jar</systemPath>  
 	</dependency>
     <dependency>
-      <groupId>com.beyondsphere.service</groupId>
-	  <artifactId>beyondsphere-web-service</artifactId>
+      <groupId>com.oncecloud.service</groupId>
+	  <artifactId>oncecloud-web-service</artifactId>
 	  <version>2.2-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>com.beyondsphere.xen</groupId>
-      <artifactId>beyondsphere-xen-api</artifactId>
+      <groupId>com.oncecloud.xen</groupId>
+      <artifactId>oncecloud-xen-api</artifactId>
       <version>2.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>com.beyondsphere.docker</groupId>
-	  <artifactId>beyondsphere-docker-api</artifactId>
+      <groupId>com.oncecloud.docker</groupId>
+	  <artifactId>oncecloud-docker-api</artifactId>
 	  <version>2.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>com.beyondsphere.vsphere</groupId>
-	  <artifactId>beyondsphere-vsphere-api</artifactId>
+      <groupId>com.oncecloud.vsphere</groupId>
+	  <artifactId>oncecloud-vsphere-api</artifactId>
 	  <version>2.2-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>com.beyondsphere.dao</groupId>
-	  <artifactId>beyondsphere-web-dao</artifactId>
+      <groupId>com.oncecloud.dao</groupId>
+	  <artifactId>oncecloud-web-dao</artifactId>
 	  <version>2.2-SNAPSHOT</version>
 	</dependency>
   </dependencies>
@@ -90,6 +90,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>beyondsphere-web-user</finalName>
+		<finalName>oncecloud-web-user</finalName>
 	</build>
 </project>

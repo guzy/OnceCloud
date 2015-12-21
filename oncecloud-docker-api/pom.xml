@@ -3,15 +3,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.beyondsphere</groupId>
-    <artifactId>beyondsphere</artifactId>
+    <groupId>com.oncecloud</groupId>
+    <artifactId>oncecloud</artifactId>
     <version>2.1-SNAPSHOT</version>
   </parent>
   
-  <groupId>com.beyondsphere.docker</groupId>
-  <artifactId>beyondsphere-docker-api</artifactId>
+  <groupId>com.oncecloud.docker</groupId>
+  <artifactId>oncecloud-docker-api</artifactId>
   <version>2.0-SNAPSHOT</version>
-  <name>beyondsphere-docker-api</name>
+  <name>oncecloud-docker-api</name>
   <url>http://maven.apache.org</url>
   
   <dependencies>

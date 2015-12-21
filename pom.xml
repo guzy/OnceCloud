@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.beyondsphere</groupId>
-  <artifactId>beyondsphere</artifactId>
+  <groupId>com.oncecloud</groupId>
+  <artifactId>oncecloud</artifactId>
   <version>2.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Beyondsphere</name>
+  <name>OnceCloud</name>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -105,15 +105,15 @@
   </dependencyManagement>
   
   <modules>
-    <module>beyondsphere-docker-api</module>
-    <module>beyondsphere-web-admin</module>
-    <module>beyondsphere-web-common</module>
-    <module>beyondsphere-web-core</module>
-    <module>beyondsphere-web-dao</module>
-    <module>beyondsphere-web-service</module>
-    <module>beyondsphere-web-user</module>
-    <module>beyondsphere-xen-api</module>
-    <module>beyondsphere-vsphere-api</module>
+    <module>oncecloud-docker-api</module>
+    <module>oncecloud-web-admin</module>
+    <module>oncecloud-web-common</module>
+    <module>oncecloud-web-core</module>
+    <module>oncecloud-web-dao</module>
+    <module>oncecloud-web-service</module>
+    <module>oncecloud-web-user</module>
+    <module>oncecloud-xen-api</module>
+    <module>oncecloud-vsphere-api</module>
   </modules>
   
   <build>
