@@ -35,7 +35,7 @@
     <init-param>
       <param-name>ContextConfigLocation</param-name>
       <param-value>
-					classpath*:/com/beyondsphere/config/application-context.xml
+					classpath*:/com/oncecloud/config/application-context.xml
 			</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>

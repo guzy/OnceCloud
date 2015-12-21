@@ -93,7 +93,7 @@ public class HostCoreImpl implements HostCore {
 			return hostMap;
 		}
 		try {
-			if (ssh.execute("python /beyondsphere/activate.py " + key)) {
+			if (ssh.execute("python /oncecloud/activate.py " + key)) {
 				URL url = new URL("HTTP", ip, 9363, "/");
 				Connection conn = new Connection(url);
 				Session.loginWithPassword(conn, username, password, null);

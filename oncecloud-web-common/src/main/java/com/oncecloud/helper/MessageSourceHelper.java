@@ -10,7 +10,7 @@ import java.util.ResourceBundle;
 public final class MessageSourceHelper { 	    
 	
     public String getMessage(String code){    	 
-    	 ResourceBundle rb = ResourceBundle.getBundle("com/beyondsphere/config/message", Locale.CHINA);
+    	 ResourceBundle rb = ResourceBundle.getBundle("com/oncecloud/config/message", Locale.CHINA);
     	 return rb.getString(code);
     }   
 }

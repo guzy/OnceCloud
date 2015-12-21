@@ -13,7 +13,7 @@ public interface HAConstants {
 
 	public final static String PATH_LOCAL_DOMAINS =  "/var/lib/xend/domains/";
 	
-	public final static String PATH_DELETED_DOMAINBS = "/etc/beyondsphere/";
+	public final static String PATH_DELETED_DOMAINBS = "/etc/oncecloud/";
 	
 	public final static String PATH_SEPARATOR = "/";
 	

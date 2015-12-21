@@ -11,7 +11,7 @@ import org.apache.log4j.Logger;
  */
 public class SystemConfig {
 	private static Properties props;
-	private static String configFilePath = "/com/beyondsphere/config/config.xml";
+	private static String configFilePath = "/com/oncecloud/config/config.xml";
 	private static Logger logger = Logger.getLogger(SystemConfig.class);
 
 	static {

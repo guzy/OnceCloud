@@ -9,7 +9,7 @@ public class LoggerConfig {
 	
 	static {
 		PropertyConfigurator.configure(LoggerConfig.class
-				.getResourceAsStream("/com/beyondsphere/config/log4j.properties"));
+				.getResourceAsStream("/com/oncecloud/config/log4j.properties"));
 	}
 	
 	private static Logger logger = Logger.getLogger(LoggerConfig.class);

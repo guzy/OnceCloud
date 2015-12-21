@@ -17,7 +17,7 @@ function connectupiso() {
     if ('WebSocket' in window) {
         console.log('Websocket supported');
         var host = window.location.host;
-        socket2 = new WebSocket('ws://' + host + '/beyondsphere/upISOMessagingService');
+        socket2 = new WebSocket('ws://' + host + '/oncecloud/upISOMessagingService');
         console.log('Connection attempted');
 
         socket2.onopen = function () {

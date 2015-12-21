@@ -4,28 +4,28 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <dependent-module archiveName="beyondsphere-web-service-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-web-service/beyondsphere-web-service">
+        <dependent-module archiveName="oncecloud-web-service-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-web-service/oncecloud-web-service">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="beyondsphere-web-common-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-web-common/beyondsphere-web-common">
+        <dependent-module archiveName="oncecloud-web-common-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-web-common/oncecloud-web-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="beyondsphere-web-core-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-web-core/beyondsphere-web-core">
+        <dependent-module archiveName="oncecloud-web-core-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-web-core/oncecloud-web-core">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="beyondsphere-xen-api-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-xen-api/beyondsphere-xen-api">
+        <dependent-module archiveName="oncecloud-xen-api-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-xen-api/oncecloud-xen-api">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="beyondsphere-docker-api-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-docker-api/beyondsphere-docker-api">
+        <dependent-module archiveName="oncecloud-docker-api-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-docker-api/oncecloud-docker-api">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="beyondsphere-vsphere-api-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-vsphere-api/beyondsphere-vsphere-api">
+        <dependent-module archiveName="oncecloud-vsphere-api-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-vsphere-api/oncecloud-vsphere-api">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="beyondsphere-web-dao-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-web-dao/beyondsphere-web-dao">
+        <dependent-module archiveName="oncecloud-web-dao-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-web-dao/oncecloud-web-dao">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="java-output-path" value="/oncecloud-web-user/target/classes"/>
-        <property name="context-root" value="beyondsphere-web-user"/>
+        <property name="context-root" value="oncecloud-web-user"/>
     </wb-module>
 </project-modules>

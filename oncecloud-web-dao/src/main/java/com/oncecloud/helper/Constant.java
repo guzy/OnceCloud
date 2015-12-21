@@ -1,5 +1,5 @@
 package com.oncecloud.helper;
-/*package com.beyondsphere.helper;
+/*package com.oncecloud.helper;
 
 import org.Xen.API.Connection;
 import org.apache.log4j.Logger;
@@ -7,12 +7,12 @@ import org.apache.log4j.PropertyConfigurator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.beyondsphere.dao.HostDAO;
-import com.beyondsphere.dao.PoolDAO;
-import com.beyondsphere.dao.UserDAO;
-import com.beyondsphere.entity.OCHost;
-import com.beyondsphere.entity.OCPool;
-import com.beyondsphere.entity.User;
+import com.oncecloud.dao.HostDAO;
+import com.oncecloud.dao.PoolDAO;
+import com.oncecloud.dao.UserDAO;
+import com.oncecloud.entity.OCHost;
+import com.oncecloud.entity.OCPool;
+import com.oncecloud.entity.User;
 
 *//**
  * @author hehai

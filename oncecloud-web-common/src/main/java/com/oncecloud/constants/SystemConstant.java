@@ -37,7 +37,7 @@ public class SystemConstant {
 	
 	/*static {
 		PropertyConfigurator.configure(SystemConstant.class
-				.getResourceAsStream("/com/beyondsphere/config/log4j.properties"));
+				.getResourceAsStream("/com/oncecloud/config/log4j.properties"));
 	}
 	
 	public final static Logger getLogger (Class<?> clazz){

@@ -8,7 +8,7 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
 
-import com.beyondsphere.vsphere.VMWareUtil;
+import com.oncecloud.vsphere.VMWareUtil;
 import com.oncecloud.dao.PerformanceVSphereDAO;
 import com.oncecloud.entity.OCHost;
 import com.oncecloud.entity.OCVM;

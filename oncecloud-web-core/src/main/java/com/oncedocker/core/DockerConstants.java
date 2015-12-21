@@ -10,7 +10,7 @@ package com.oncedocker.core;
  */
 public interface DockerConstants {
 
-	public final static String CONFIG_DOCKER = "/com/beyondsphere/config/docker.config";
+	public final static String CONFIG_DOCKER = "/com/oncecloud/config/docker.config";
 	
 	public final static String ELEM_REPOURL = "repoUrl";
 	

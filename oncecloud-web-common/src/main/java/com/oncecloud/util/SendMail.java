@@ -48,7 +48,7 @@ import org.springframework.mail.javamail.JavaMailSenderImpl;
 public   class  SendMail { 
 	public ApplicationContext ctx = null; 
 	public void sendMail(String text, String to ) {
-		ctx = new ClassPathXmlApplicationContext("com/beyondsphere/config/applicationContext-mail.xml");  
+		ctx = new ClassPathXmlApplicationContext("com/oncecloud/config/applicationContext-mail.xml");  
 		JavaMailSenderImpl senderImpl  = (JavaMailSenderImpl) ctx.getBean("mailSender");  
 		SimpleMailMessage mailMessage  =  (SimpleMailMessage)ctx.getBean("mailMessage");
 		

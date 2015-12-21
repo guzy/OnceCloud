@@ -77,7 +77,7 @@ public class NOVNCServiceImpl implements NOVNCService {
 			try {
 				StringBuffer urlbuffer = new StringBuffer();
 				noVNCServer = OnceProperties.loadXML(
-						"./com/beyondsphere/config/config.xml").getProperty(
+						"./com/oncecloud/config/config.xml").getProperty(
 						"no_vnc");
 				urlbuffer.append(noVNCServer + "VncAction?action=create&host=");
 				urlbuffer.append(host);
@@ -113,7 +113,7 @@ public class NOVNCServiceImpl implements NOVNCService {
 			boolean result = false;
 			try {
 				noVNCServer = OnceProperties.loadXML(
-						"./com/beyondsphere/config/config.xml").getProperty(
+						"./com/oncecloud/config/config.xml").getProperty(
 						"no_vnc");
 				URL url = new URL(noVNCServer
 						+ "VncAction?action=delete&token=" + token);
@@ -138,7 +138,7 @@ public class NOVNCServiceImpl implements NOVNCService {
 	public String getPublicVNC() {
 		try {
 			noVNCServerPublic = OnceProperties.loadXML(
-					"./com/beyondsphere/config/config.xml").getProperty(
+					"./com/oncecloud/config/config.xml").getProperty(
 					"no_vnc_public");
 		} catch (Exception e) {
 			e.printStackTrace();

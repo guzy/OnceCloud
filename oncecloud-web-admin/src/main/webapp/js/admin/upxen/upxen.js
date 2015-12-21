@@ -75,7 +75,7 @@ function connectupxen() {
     if ('WebSocket' in window) {
         console.log('Websocket supported');
         var host = window.location.host;
-        socket2 = new WebSocket('ws://' + host + '/beyondsphere/upXenMessagingService');
+        socket2 = new WebSocket('ws://' + host + '/oncecloud/upXenMessagingService');
         console.log('Connection attempted');
 
         socket2.onopen = function () {

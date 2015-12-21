@@ -50,7 +50,7 @@ public final class SessionHelper {
 
 	private void configurePlatformDatabase() {
 		Configuration platformConfiguration = new Configuration()
-				.configure("com/beyondsphere/config/hibernate-platform.cfg.xml");
+				.configure("com/oncecloud/config/hibernate-platform.cfg.xml");
 		ServiceRegistry platformServiceRegistry = new StandardServiceRegistryBuilder()
 				.applySettings(platformConfiguration.getProperties()).build();
 		this.setPlatformSessionFactory(platformConfiguration
@@ -59,7 +59,7 @@ public final class SessionHelper {
 
 	private void configureMainDatabase() {
 		Configuration mainConfiguration = new Configuration()
-				.configure("com/beyondsphere/config/hibernate-main.cfg.xml");
+				.configure("com/oncecloud/config/hibernate-main.cfg.xml");
 		ServiceRegistry mainServiceRegistry = new StandardServiceRegistryBuilder()
 				.applySettings(mainConfiguration.getProperties()).build();
 		this.setMainSessionFactory(mainConfiguration
@@ -68,7 +68,7 @@ public final class SessionHelper {
 
 	private void configurePerformanceDatabase() {
 		Configuration performanceConfiguration = new Configuration()
-				.configure("com/beyondsphere/config/hibernate-performance.cfg.xml");
+				.configure("com/oncecloud/config/hibernate-performance.cfg.xml");
 		ServiceRegistry performanceServiceRegistry = new StandardServiceRegistryBuilder()
 				.applySettings(performanceConfiguration.getProperties())
 				.build();
