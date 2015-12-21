@@ -13,12 +13,6 @@
         <dependent-module archiveName="oncecloud-web-core-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-web-core/oncecloud-web-core">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="oncecloud-xen-api-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-xen-api/oncecloud-xen-api">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="oncecloud-docker-api-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-docker-api/oncecloud-docker-api">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="oncecloud-vsphere-api-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/oncecloud-vsphere-api/oncecloud-vsphere-api">
             <dependency-type>uses</dependency-type>
         </dependent-module>

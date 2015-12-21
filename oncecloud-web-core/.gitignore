@@ -4,3 +4,4 @@
 *.war
 *.class
 /target/*
+/target/
