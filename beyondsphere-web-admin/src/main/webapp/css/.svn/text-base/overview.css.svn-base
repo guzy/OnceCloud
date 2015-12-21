@@ -1,0 +1,37 @@
+.once-pane{
+	padding:10px 20px;
+}
+.view-panel{
+	float: left;
+	margin: 0px 20px 20px 0px;
+	width:161px;
+	height:100px; 
+}
+.view-panel .panel-heading{
+	text-align: center;
+}
+.view-panel .panel-body{
+	text-align: center;
+}
+.view-panel .panel-body{
+	/* background-color: #d9edf7; */
+}
+
+.view-panel{
+	float: left;
+	margin: 0px 20px 20px 0px;
+	width:161px;
+	height:100px; 
+}
+.over-panel{
+	float: left;
+	margin: 0px 20px 20px 0px;
+	width:342px;
+	height:300px; 
+}
+.view-panel .panel-heading{
+	text-align: center;
+}
+.more{
+	float:right;
+}

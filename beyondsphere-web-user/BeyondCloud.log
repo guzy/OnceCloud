@@ -1,0 +1,776 @@
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/Create],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.AlarmAction.create(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateAlarmModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/BindAlarm],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.AlarmAction.bindAlarm(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/ModifyRule],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.AlarmAction.modifyRule(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,int,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/UnBindAlarm],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.AlarmAction.unBindAlarm(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/DeleteRule],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.deleteRule(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/ModifyAlarm],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.modifyAlarm(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/AlarmVMList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.alarmVMList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/AlarmList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.alarmList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/Destory],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.destory(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/RuleList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.ruleList(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.Integer,java.lang.Integer)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/CreateRule],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.AlarmAction.createRule(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateAlarmRuleModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/GetAlarm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.getAlarm(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/Update],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ClusterAction.update(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/Delete],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ClusterAction.delete(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/Create],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ClusterAction.create(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/DatacenterList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ClusterAction.allList(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/AllCluster],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ClusterAction.allPool(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ImageCloneModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/ClusterList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ClusterAction.poolList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/createContainerWithCluster],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ContainerAction.createContainerWithCluster(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateVMModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/createContainer],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ContainerAction.createContainer(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateVMModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/Stop],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ContainerAction.stopContianer(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/contianerMakeImage],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ContainerAction.contianerImage(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/listAllContainer],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ContainerAction.listAllcontainer(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/Delete],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ContainerAction.deleteContianer(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/ContainerList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ContainerAction.containerList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/Restart],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ContainerAction.restartContianer(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/GetGroup],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.getGroup(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/BindGroup],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.GroupAction.bindAlarm(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/RemoveFromGroup],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.GroupAction.unBindAlarm(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/ModifyGroup],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.modifyAlarm(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.GroupModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/Destory],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.destory(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/UnBindGroup],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.GroupAction.removeFromAlarm(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/AllList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.groupList(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/GroupList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.groupList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/VMList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.vmList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/VMListOfGroup],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.vmListOfGroup(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/Create],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.GroupAction.addGroup(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.GroupModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/HostAction/Create],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.HostAction.create(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateHostModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/HostAction/HostList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.HostAction.hostList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/HostAction/AddToPool],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.HostAction.addToPool(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/HostAction/QueryAddress],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.HostAction.queryAddress(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/HostAction/TablePool],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.HostAction.tablePool(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ImageAction/Clone],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ImageAction.clone(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ImageCloneModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ImageAction/Delete],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ImageAction.delete(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ImageAction/Imagedetail],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ImageAction.basicList(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ImageAction/ImageList],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ImageAction.imageList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/Remove],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.LogAction.remove(javax.servlet.http.HttpServletRequest,int)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/applicationLogList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.LogAction.applicationLogList(javax.servlet.http.HttpServletRequest,java.lang.String,int) throws javax.servlet.ServletException,java.io.IOException
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/configSaveTime],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public boolean com.beyondsphere.controller.action.LogAction.trsLogToBackup(javax.servlet.http.HttpServletRequest,int)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/LogList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.LogAction.logList(javax.servlet.http.HttpServletRequest,int,int,int) throws javax.servlet.ServletException,java.io.IOException
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/LogToFile],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.LogAction.logToFile(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/cancelSaveTime],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public boolean com.beyondsphere.controller.action.LogAction.cancelTrsLog(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/captcha],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<byte[]> com.beyondsphere.controller.action.LoginAction.image(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.action.LoginAction.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.beyondsphere.model.LogOnModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ModifyAction/ModifyBasicInfo],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ModifyAction.modifyBasicInfo(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CommonModifyModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VnetAction/VnetDetail],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.NetworkAction.vnetDetail(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/container],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.container(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/CPU],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.cpu(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/Memory],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.memory(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/VIF],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.vif(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/VBD],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.vbd(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/PIF],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.pif(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ProfitAction/profitList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ProfitAction.profitlist(javax.servlet.http.HttpServletRequest,java.lang.Integer)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ProfitAction/profitPie],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ProfitAction.profitPie(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/CreateQuestion],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.createQuestion(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/CloseQuestion],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.closeQuestion(javax.servlet.http.HttpServletRequest,int)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/QuestionList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.questionList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/Reply],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.reply(javax.servlet.http.HttpServletRequest,int,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/ReplyList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.replyList(javax.servlet.http.HttpServletRequest,int)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/QuestionDetail],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.questionDetail(javax.servlet.http.HttpServletRequest,int)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RegistryAction/createRegistry],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.RegistryAction.createRegistry(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateRegistryModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RegistryAction/deleteRegistry],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.RegistryAction.deleteRegistry(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RegistryAction/registryRepoList],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.RegistryAction.imageList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RegistryAction/registryList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.RegistryAction.registryList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RepositoryAction/createContainer],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.RepositoryAction.createVM(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateVMModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RepositoryAction/ContainerRepoList],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.RepositoryAction.imageList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/DeleteSnapshotSeries],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.deleteSnapshotSeries(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/DeleteSnapshot],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.deleteSnapshot(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/CreateSnapshot],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.createSnapshot(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateSnapshotModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/Rollback],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.rollbackSnapshot(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/BasicList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.basicList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateSnapshotModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/SnapshotList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.snapshotList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/DetailList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.detailList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateSnapshotModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/StatisticsAction/List],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.StatisticsAction.statistics(javax.servlet.http.HttpServletRequest,int,int,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/TemplateList],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.TemplateAction.imageList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/makeTemplate],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.TemplateAction.makeTemplate(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/Delete],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.TemplateAction.deleteTemplate(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/tagTemplate],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.TemplateAction.tagTemplate(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/template],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public boolean com.beyondsphere.controller.action.TemplateAction.pushTemplate(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/PushTemplate],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.TemplateAction.pushTemplate(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/UserAction/Update],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public int com.beyondsphere.controller.action.UserAction.update(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/UserAction/OneUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.UserAction.oneUser(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/CreateVM],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.createVM(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateVMModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/ShutdownVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.shutdownVM(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/StartVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.startVM(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/RestartVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.restartVM(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/DeleteVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.deleteVM(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/VMAdjust],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.adjustVM(javax.servlet.http.HttpServletRequest,java.lang.String,int,int,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/VMList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VMAction.vmList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/VMDetail],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VMAction.vmDetail(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/MountVmip],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VMAction.mounVmip(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/updateVmips],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VMAction.updateVmips(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/VMListOfVolume],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VMAction.vmListOfVolume(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/CheckVMStatus],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.checkVMStatus(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/Bind],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VolumeAction.bind(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/Unbind],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VolumeAction.unbind(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/AvailableVolumes],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VolumeAction.getAvailableVolumes(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/CreateVolume],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VolumeAction.createVolume(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateVolumeModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/DeleteVolume],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VolumeAction.deleteVolume(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/VolumesOfVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VolumeAction.volumeOfVm(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/VolumeList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VolumeAction.volumeList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/VolumeDetail],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VolumeAction.volumeDetail(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VSphereAction/ShutdownVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VSphereAction.shutdownVM(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VSphereAction/StartVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VSphereAction.startVM(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VSphereAction/DestoryVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VSphereAction.vmDestory(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ || /login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.AccountController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.AccountController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/404],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.AccountController.pageNotFound(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/403],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.AccountController.pageNotAuth(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/group/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createGroup(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/platform/clone],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.cloneContainerImage(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/instance/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createVM(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/alarmrule/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createAlarmRule(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/snapshot/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createSnapshot(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/alarm/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createAlarm(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/volume/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createVolume(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/platform/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createContainer(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/cluster/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createPool(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/host/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createHost(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/template/push],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.pushTemplate(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/image/clone],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.cloneImage(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/service/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createService(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/registry/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createRegistr(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/service/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.questionDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/volume/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.volumeDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/alarm/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.alarmDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/container/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.containerDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/instance/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.instanceDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/snapshot/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.snapshotDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/group/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.groupDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/image/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.imageDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/adjust],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.adjust(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/deploy/skipDeploy],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.deploy(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/bindgroup],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.bindGroup(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/bindalarm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.bindAlarm(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/modifygroup],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.modifyGroup(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.GroupModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/modifyalarm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.modifyAlarm(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/volume/bind],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.bindVolume(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/logConfig],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.logConfig(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/modifyalarmrule],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.modifyAlarmRule(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/createtemplate],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.upfile(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/modifyUserinfo],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.modifyUserinfo(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/addtocluster],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.addtopool(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/addreg],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.addreg(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/updateVMsip],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.updateVMsip(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/mountVmip],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.mountVmip(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CommonModifyModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/modify],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.modify(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CommonModifyModel)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/mountvolume],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.mountVolume(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/deploy/modelParams],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.deployModel(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/adjustc],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.adjustc(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/group],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.group(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/log],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.log(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/host],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.host(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/instance],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.instance(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/repository],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.repository(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/service],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.service(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/snapshot],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.snapshot(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/registry],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.registry(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/template],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.template(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/deploy],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.deploy(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/cluster],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.pool(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/image],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.image(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/application],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.application(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/volume],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.volume(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/overview],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.overview(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/container],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.platform(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/distribute],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.distribute(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/consumption],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.consumption(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/alarm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.alarm(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/statistics],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.expenseSummary(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:517] [main]
+INFO: Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Dec 21 18:26:19 CST 2015]; root of context hierarchy
+2015-12-21 06:26:29 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:517] [main]
+INFO: Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Dec 21 18:26:19 CST 2015]; root of context hierarchy
+2015-12-21 06:26:29 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/bootstrap/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-12-21 06:26:29 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-12-21 06:26:29 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-12-21 06:26:29 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/js/user/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/js/admin/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#5'
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/file/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#6'
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/Create],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.AlarmAction.create(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateAlarmModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/BindAlarm],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.AlarmAction.bindAlarm(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/ModifyRule],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.AlarmAction.modifyRule(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,int,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/UnBindAlarm],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.AlarmAction.unBindAlarm(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/DeleteRule],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.deleteRule(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/ModifyAlarm],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.modifyAlarm(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/AlarmVMList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.alarmVMList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/AlarmList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.alarmList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/Destory],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.destory(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/RuleList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.ruleList(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.Integer,java.lang.Integer)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/CreateRule],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.AlarmAction.createRule(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateAlarmRuleModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/AlarmAction/GetAlarm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.AlarmAction.getAlarm(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/Update],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ClusterAction.update(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/Delete],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ClusterAction.delete(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/Create],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ClusterAction.create(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/DatacenterList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ClusterAction.allList(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/AllCluster],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ClusterAction.allPool(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ImageCloneModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ClusterAction/ClusterList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ClusterAction.poolList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/createContainerWithCluster],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ContainerAction.createContainerWithCluster(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateVMModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/createContainer],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ContainerAction.createContainer(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateVMModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/Stop],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ContainerAction.stopContianer(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/contianerMakeImage],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ContainerAction.contianerImage(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/listAllContainer],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ContainerAction.listAllcontainer(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/Delete],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ContainerAction.deleteContianer(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/ContainerList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ContainerAction.containerList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ContainerAction/Restart],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ContainerAction.restartContianer(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/GetGroup],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.getGroup(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/BindGroup],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.GroupAction.bindAlarm(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/RemoveFromGroup],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.GroupAction.unBindAlarm(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/ModifyGroup],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.modifyAlarm(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.GroupModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/Destory],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.destory(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/UnBindGroup],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.GroupAction.removeFromAlarm(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/AllList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.groupList(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/GroupList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.groupList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/VMList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.vmList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/VMListOfGroup],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.GroupAction.vmListOfGroup(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/GroupAction/Create],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.GroupAction.addGroup(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.GroupModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/HostAction/Create],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.HostAction.create(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateHostModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/HostAction/HostList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.HostAction.hostList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/HostAction/AddToPool],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.HostAction.addToPool(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/HostAction/QueryAddress],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.HostAction.queryAddress(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/HostAction/TablePool],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.HostAction.tablePool(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ImageAction/Clone],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.ImageAction.clone(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ImageCloneModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ImageAction/Delete],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ImageAction.delete(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ImageAction/Imagedetail],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ImageAction.basicList(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ImageAction/ImageList],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ImageAction.imageList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/Remove],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.LogAction.remove(javax.servlet.http.HttpServletRequest,int)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/applicationLogList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.LogAction.applicationLogList(javax.servlet.http.HttpServletRequest,java.lang.String,int) throws javax.servlet.ServletException,java.io.IOException
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/configSaveTime],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public boolean com.beyondsphere.controller.action.LogAction.trsLogToBackup(javax.servlet.http.HttpServletRequest,int)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/LogList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.LogAction.logList(javax.servlet.http.HttpServletRequest,int,int,int) throws javax.servlet.ServletException,java.io.IOException
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/LogToFile],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.LogAction.logToFile(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/LogAction/cancelSaveTime],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public boolean com.beyondsphere.controller.action.LogAction.cancelTrsLog(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/captcha],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<byte[]> com.beyondsphere.controller.action.LoginAction.image(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.action.LoginAction.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.beyondsphere.model.LogOnModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ModifyAction/ModifyBasicInfo],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ModifyAction.modifyBasicInfo(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CommonModifyModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VnetAction/VnetDetail],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.NetworkAction.vnetDetail(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/container],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.container(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/CPU],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.cpu(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/Memory],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.memory(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/VIF],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.vif(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/VBD],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.vbd(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/PerformanceAction/PIF],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.PerformanceAction.pif(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ProfitAction/profitList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ProfitAction.profitlist(javax.servlet.http.HttpServletRequest,java.lang.Integer)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ProfitAction/profitPie],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.ProfitAction.profitPie(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/CreateQuestion],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.createQuestion(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/CloseQuestion],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.closeQuestion(javax.servlet.http.HttpServletRequest,int)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/QuestionList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.questionList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/Reply],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.reply(javax.servlet.http.HttpServletRequest,int,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/ReplyList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.replyList(javax.servlet.http.HttpServletRequest,int)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/QAAction/QuestionDetail],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.QAAction.questionDetail(javax.servlet.http.HttpServletRequest,int)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RegistryAction/createRegistry],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.RegistryAction.createRegistry(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateRegistryModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RegistryAction/deleteRegistry],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.RegistryAction.deleteRegistry(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RegistryAction/registryRepoList],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.RegistryAction.imageList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RegistryAction/registryList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.RegistryAction.registryList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RepositoryAction/createContainer],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.RepositoryAction.createVM(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateVMModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/RepositoryAction/ContainerRepoList],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.RepositoryAction.imageList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/DeleteSnapshotSeries],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.deleteSnapshotSeries(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/DeleteSnapshot],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.deleteSnapshot(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/CreateSnapshot],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.createSnapshot(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateSnapshotModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/Rollback],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.rollbackSnapshot(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/BasicList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.basicList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateSnapshotModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/SnapshotList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.snapshotList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/SnapshotAction/DetailList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.SnapshotAction.detailList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateSnapshotModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/StatisticsAction/List],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.StatisticsAction.statistics(javax.servlet.http.HttpServletRequest,int,int,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/TemplateList],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.TemplateAction.imageList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/makeTemplate],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.TemplateAction.makeTemplate(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/Delete],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.TemplateAction.deleteTemplate(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/tagTemplate],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.TemplateAction.tagTemplate(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/template],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public boolean com.beyondsphere.controller.action.TemplateAction.pushTemplate(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/TemplateAction/PushTemplate],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.TemplateAction.pushTemplate(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/UserAction/Update],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public int com.beyondsphere.controller.action.UserAction.update(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/UserAction/OneUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.UserAction.oneUser(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/CreateVM],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.createVM(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateVMModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/ShutdownVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.shutdownVM(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/StartVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.startVM(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/RestartVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.restartVM(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/DeleteVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.deleteVM(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/VMAdjust],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.adjustVM(javax.servlet.http.HttpServletRequest,java.lang.String,int,int,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/VMList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VMAction.vmList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/VMDetail],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VMAction.vmDetail(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/MountVmip],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VMAction.mounVmip(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/updateVmips],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VMAction.updateVmips(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/VMListOfVolume],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VMAction.vmListOfVolume(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VMAction/CheckVMStatus],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VMAction.checkVMStatus(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/Bind],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VolumeAction.bind(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/Unbind],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VolumeAction.unbind(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/AvailableVolumes],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VolumeAction.getAvailableVolumes(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/CreateVolume],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VolumeAction.createVolume(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CreateVolumeModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/DeleteVolume],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VolumeAction.deleteVolume(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/VolumesOfVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VolumeAction.volumeOfVm(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/VolumeList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VolumeAction.volumeList(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.ListModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VolumeAction/VolumeDetail],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.beyondsphere.controller.action.VolumeAction.volumeDetail(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VSphereAction/ShutdownVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VSphereAction.shutdownVM(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VSphereAction/StartVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VSphereAction.startVM(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/VSphereAction/DestoryVM],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.beyondsphere.controller.action.VSphereAction.vmDestory(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/ || /login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.AccountController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.AccountController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/404],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.AccountController.pageNotFound(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/403],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.AccountController.pageNotAuth(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/group/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createGroup(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/platform/clone],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.cloneContainerImage(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/instance/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createVM(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/alarmrule/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createAlarmRule(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/snapshot/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createSnapshot(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/alarm/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createAlarm(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/volume/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createVolume(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/platform/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createContainer(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/cluster/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createPool(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/host/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createHost(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/template/push],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.pushTemplate(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/image/clone],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.cloneImage(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/service/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createService(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/registry/create],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.CreateController.createRegistr(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/service/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.questionDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/volume/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.volumeDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/alarm/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.alarmDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/container/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.containerDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/instance/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.instanceDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/snapshot/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.snapshotDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/group/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.groupDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/image/detail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.DetailController.imageDetail(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/adjust],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.adjust(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/deploy/skipDeploy],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.deploy(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/bindgroup],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.bindGroup(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/bindalarm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.bindAlarm(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/modifygroup],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.modifyGroup(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.GroupModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/modifyalarm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.modifyAlarm(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/volume/bind],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.bindVolume(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/logConfig],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.logConfig(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/modifyalarmrule],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.modifyAlarmRule(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/createtemplate],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.upfile(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/modifyUserinfo],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.modifyUserinfo(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/addtocluster],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.addtopool(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/addreg],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.addreg(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/updateVMsip],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.updateVMsip(javax.servlet.http.HttpServletRequest,java.lang.String)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/mountVmip],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.mountVmip(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CommonModifyModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/modify],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.modify(javax.servlet.http.HttpServletRequest,com.beyondsphere.model.CommonModifyModel)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/mountvolume],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.mountVolume(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/deploy/modelParams],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.deployModel(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/user/modal/adjustc],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.ModalController.adjustc(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/group],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.group(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/log],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.log(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/host],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.host(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/instance],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.instance(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/repository],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.repository(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/service],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.service(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/snapshot],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.snapshot(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/registry],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.registry(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/template],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.template(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/deploy],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.deploy(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/cluster],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.pool(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/image],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.image(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/application],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.application(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/volume],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.volume(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/overview],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.overview(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/container],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.platform(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/distribute],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.distribute(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/consumption],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.consumption(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/alarm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.alarm(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217] [main]
+INFO: Mapped "{[/statistics],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.beyondsphere.controller.forward.UserController.expenseSummary(javax.servlet.http.HttpServletRequest)
+2015-12-21 06:26:30 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:517] [main]
+INFO: Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Dec 21 18:26:19 CST 2015]; root of context hierarchy
+2015-12-21 06:26:30 [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:165] [main]
+INFO: Initializing ExecutorService  'defaultSockJsTaskScheduler'
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/upDockerMessagingService] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/sockjs/upXenMessagingService/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/sockjs/messagingService/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/upXenMessagingService] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/sockjs/upISOMessagingService/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/messagingService] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/upISOMessagingService] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2015-12-21 06:26:30 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314] [main]
+INFO: Mapped URL path [/sockjs/upDockerMessagingService/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2015-12-21 06:26:30 [org.springframework.web.servlet.DispatcherServlet:503] [main]
+INFO: FrameworkServlet 'dispatcherServlet': initialization completed in 10475 ms
+2015-12-21 06:26:46 [com.beyondsphere.constants.LoggerConfig:30] [qtp1106189986-15]
+INFO: Check Login: User [admin] Result [0]
+2015-12-21 06:26:46 [com.beyondsphere.usercore.UserCore:64] [qtp1106189986-15]
+INFO: Check Login: User [admin] Result [0], login success!
+2015-12-21 06:26:52 [com.beyondsphere.constants.LoggerConfig:30] [qtp1106189986-14]
+INFO: Check Login: User [admin] Result [0]
+2015-12-21 06:26:52 [com.beyondsphere.usercore.UserCore:64] [qtp1106189986-14]
+INFO: Check Login: User [admin] Result [0], login success!
+2015-12-21 06:27:01 [com.beyondsphere.constants.LoggerConfig:30] [qtp1106189986-20]
+INFO: Check Login: User [root] Result [1]
+2015-12-21 06:28:44 [com.beyondsphere.constants.LoggerConfig:30] [qtp1106189986-13]
+INFO: Check Login: User [admin] Result [1]
+2015-12-21 06:29:03 [com.beyondsphere.constants.LoggerConfig:30] [qtp1106189986-13]
+INFO: Check Login: User [admin] Result [0]
+2015-12-21 06:29:03 [com.beyondsphere.usercore.UserCore:64] [qtp1106189986-13]
+INFO: Check Login: User [admin] Result [0], login success!

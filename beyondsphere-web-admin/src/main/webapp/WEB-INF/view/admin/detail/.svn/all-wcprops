@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cloudWeb/!svn/ver/1241/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail
+END
+imagedetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail/imagedetail.jsp
+END
+userprofitdetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail/userprofitdetail.jsp
+END
+profitdetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail/profitdetail.jsp
+END
+companydetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail/companydetail.jsp
+END
+costdetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail/costdetail.jsp
+END
+costtypedetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail/costtypedetail.jsp
+END
+datacenterdetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail/datacenterdetail.jsp
+END
+hostdetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail/hostdetail.jsp
+END
+routerdetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/996/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail/routerdetail.jsp
+END
+servicedetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/detail/servicedetail.jsp
+END

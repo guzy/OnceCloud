@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="beyondsphere-web-admin">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="beyondsphere-docker-api-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-docker-api/beyondsphere-docker-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="beyondsphere-vsphere-api-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-vsphere-api/beyondsphere-vsphere-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="beyondsphere-web-common-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-web-common/beyondsphere-web-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="beyondsphere-web-core-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-web-core/beyondsphere-web-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="beyondsphere-web-dao-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-web-dao/beyondsphere-web-dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="beyondsphere-web-service-2.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-web-service/beyondsphere-web-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="beyondsphere-xen-api-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beyondsphere-xen-api/beyondsphere-xen-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="beyondsphere-web-admin"/>
+        <property name="java-output-path" value="/beyondsphere-web-admin/target/classes"/>
+    </wb-module>
+</project-modules>

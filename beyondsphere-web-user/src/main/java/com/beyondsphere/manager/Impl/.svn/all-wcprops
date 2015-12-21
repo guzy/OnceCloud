@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cloudWeb/!svn/ver/1230/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/manager/Impl
+END
+ContainerManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cloudWeb/!svn/ver/1230/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/manager/Impl/ContainerManagerImpl.java
+END
+RegistryManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/cloudWeb/!svn/ver/1230/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/manager/Impl/RegistryManagerImpl.java
+END
+TemplateManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/cloudWeb/!svn/ver/1150/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/manager/Impl/TemplateManagerImpl.java
+END
+HostManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/1211/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/manager/Impl/HostManagerImpl.java
+END
+RepositoryManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/cloudWeb/!svn/ver/1015/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/manager/Impl/RepositoryManagerImpl.java
+END

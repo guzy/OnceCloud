@@ -1,0 +1,150 @@
+.modal-body .wizard {
+	border-right: 1px solid #9ed5f0;
+	background: #fff;
+}
+
+.wizard ol {
+	padding: 20px 52px 20px 52px;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+}
+
+.wizard .wizard-inner {
+	height: 306px !important;
+	padding: 30px;
+}
+
+.wizard-inner .types {
+	overflow: hidden;
+	margin: 0 auto 20px 0;
+}
+
+.item .control-label {
+	line-height: 41px;
+}
+
+.item input[type=text],.item #login_passwd {
+	width: 212px !important;
+	border-radius: 3px;
+}
+
+input[type=disable] {
+	line-height: 25px !important;
+	width: 240px !important;
+	background: #eee !important;
+	border-color: #eee !important;
+}
+
+.wizard .wizard-action {
+	height: 64px !important;
+	background-color: #f2f2f2;
+}
+
+.wizard-action .btn-back {
+	float: left;
+	margin: 18px 0 0 30px;
+}
+
+.wizard-action .btn-next {
+	float: right;
+	margin: 18px 30px 0 0;
+}
+
+.wizard-action .btn-create {
+	float: right;
+	margin: 18px 30px 0 0;
+}
+
+.modal-body .illustrate {
+	padding: 20px;
+}
+
+.modal-body .col-md-12 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.controls .help {
+	display: block;
+	color: #777;
+	font-style: italic;
+	padding: 9px 0;
+}
+
+.modal-body .unit-price {
+	padding: 6px 10px 8px;
+	font-style: italic;
+	color: #777;
+	margin-top: 10px;
+}
+
+.alarm-rules a {
+	color: #777;
+}
+
+.alarm-rules {
+	padding: 0px 30px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.alarm-rules .alert {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.wizard-inner .text {
+	color: #fff;
+	font-size: 12px;
+}
+
+.wizard-inner .glyphicon-plus {
+	color: #fff;
+	font-size: 12px;
+}
+
+.wizard-inner .rules {
+	list-style-type: none;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.wizard-inner .rules li {
+	padding: 4px 0px;
+}
+
+.rules .rule .rule-meter {
+	width: 188px;
+}
+
+.rules .rule .rule-condition-type {
+	width: 55px;
+}
+
+.rules .rule .short-input {
+	width: 55px !important;
+	text-align: right;
+	height: 32px;
+	padding: 0 5px !important;
+}
+
+.rules .rule .delete-rule {
+	float: right;
+	margin: 4px 0 0 4px;
+	padding: 6px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #e7f4fb;
+}
+.controls .inline {
+	margin: 0px 5px;
+}
+.delete-resource {
+	float: right;
+}
+.title .dropdown-menu {
+	width: 130px;
+	min-width: 100px;
+	left: -100px;
+}

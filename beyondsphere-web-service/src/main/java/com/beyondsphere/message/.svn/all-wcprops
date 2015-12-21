@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cloudWeb/!svn/ver/1223/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message
+END
+DeleteRowMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/DeleteRowMessage.java
+END
+StickyMessageClose.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/StickyMessageClose.java
+END
+EditRowConsoleMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/EditRowConsoleMessage.java
+END
+UpDockerMessageConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/cloudWeb/!svn/ver/1080/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/UpDockerMessageConfig.java
+END
+UpISOMessageWebSocketHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/cloudWeb/!svn/ver/1080/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/UpISOMessageWebSocketHandler.java
+END
+UpXenMessageWebSocketHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/cloudWeb/!svn/ver/1223/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/UpXenMessageWebSocketHandler.java
+END
+MessageHandshakeInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/MessageHandshakeInterceptor.java
+END
+MessageConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/MessageConfig.java
+END
+StickyMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/StickyMessage.java
+END
+EditRowIPMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/EditRowIPMessage.java
+END
+MessageUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/MessageUtilities.java
+END
+MessageUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/MessageUtil.java
+END
+EditRowStatusForBindVolumeMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/EditRowStatusForBindVolumeMessage.java
+END
+MessagePush.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/MessagePush.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/Message.java
+END
+EditRowStatusForUnbindVolumeMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/EditRowStatusForUnbindVolumeMessage.java
+END
+MessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/MessageType.java
+END
+EditRowStatusMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/EditRowStatusMessage.java
+END
+UpDockerMessageWebSocketHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/cloudWeb/!svn/ver/1147/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/UpDockerMessageWebSocketHandler.java
+END
+MessageWebSocketHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/MessageWebSocketHandler.java
+END
+UpFileMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/UpFileMessage.java
+END
+UpISOMessageConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/UpISOMessageConfig.java
+END
+UpXenMessageConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cloudWeb/!svn/ver/1080/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/UpXenMessageConfig.java
+END
+EditCpuMem.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/message/EditCpuMem.java
+END

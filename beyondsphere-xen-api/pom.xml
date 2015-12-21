@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.beyondsphere</groupId>
+    <artifactId>beyondsphere</artifactId>
+    <version>2.1-SNAPSHOT</version>
+  </parent>
+  
+  <groupId>com.beyondsphere.xen</groupId>
+  <artifactId>beyondsphere-xen-api</artifactId>
+  <version>2.0-SNAPSHOT</version>
+  <name>beyondsphere-xen-api</name>
+  <url>http://maven.apache.org</url>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.xmlrpc</groupId>
+	  <artifactId>xmlrpc-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+	  <artifactId>json</artifactId>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.beyondsphere</groupId>
+    <artifactId>beyondsphere</artifactId>
+    <version>2.1-SNAPSHOT</version>
+  </parent>
+  
+  <groupId>com.beyondsphere.dao</groupId>
+  <artifactId>beyondsphere-web-dao</artifactId>
+  <version>2.2-SNAPSHOT</version>
+  <name>beyondsphere-web-dao</name>
+  <url>http://maven.apache.org</url>
+  
+  <dependencies>
+    <dependency>
+	  <groupId>log4j</groupId>
+	  <artifactId>log4j</artifactId>
+	  <version>${log4j}</version>
+	</dependency>	
+	<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    <dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-core</artifactId>
+		<version>${hibernate-core}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-c3p0</artifactId>
+		<version>${hibernate-c3p0}</version>
+	</dependency>
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>${mysql-connector-java}</version>
+	</dependency>
+	<dependency>
+      <groupId>com.beyondsphere.common</groupId>
+	  <artifactId>beyondsphere-web-common</artifactId>
+	  <version>2.2-SNAPSHOT</version>
+    </dependency>
+    <!-- 
+    
+    <dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-core</artifactId>
+		<version>${spring-core}</version>
+	</dependency>
+    <dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-context</artifactId>
+		<version>${spring-context}</version>
+	</dependency>
+    -->
+  </dependencies>
+</project>

@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+/* CSS reset */
+.main { width:1200px; margin:20px auto;}
+.switch { float:left;max-width:823px; margin:30px 100px;}
+
+.switch_title {  font-size:16px; color:#666; font-weight:bold; text-align:center; line-height:56px; display:block;  font-family: Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;}
+.switch_left { float:left; width:52px; height:59px; background:url(../img/admin/switch_left.png) no-repeat;}
+.switch_mid { float:left;height:59px; background:url(../img/admin/switch_mid.png) repeat-x;}
+.switch_right { float:left;  width:50px; height:59px; background:url(../img/admin/switch_right.png) no-repeat;}
+
+.interface { float:left; margin-top:20px;}
+.interface ul { float:left; margin-right:10px;list-style:none;}
+.interface li { float:left; width:15px; margin-right:5px;}
+.interface li a { width:13px; height:13px;background:#000; margin-bottom:4px;display: inline-block;  position:relative;cursor:pointer}
+.interface li .green { background:#00ff00;}
+.interface li .gray { background:#999;}
+.interface li .red { background:#ff0000;}
+.interface li .yellow {background:#ffcc00;}
+.interface li .blue {background:#34aadc;}
+
+.prompt_b {
+    left: -28px;
+    position: absolute;
+    top: 22px;
+    z-index: 99;
+}
+.arrow {
+    border-color: transparent transparent #80a7d0;
+    border-style: dashed dashed solid;
+    border-width: 12px;
+    font-size: 0;
+    height: 0;
+    left: 20%;
+    margin-left: -17px;
+    position: absolute;
+    top: -24px;
+    width: 0;
+}
+
+
+.prompt { float:left;width:180px;  background:#80A7D0; position:relative; border-radius:5px;}
+.prompt span { float:left; color:#fff; font-size:12px; line-height:24px; padding:5px 10px;}
+
+.main ul,ol{ list-style:none;}
+.main img{ border:0;}
+
+

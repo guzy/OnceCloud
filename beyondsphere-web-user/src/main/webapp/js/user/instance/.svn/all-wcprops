@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/cloudWeb/!svn/ver/1237/beyondsphere/beyondsphere-web-user/src/main/webapp/js/user/instance
+END
+createvm.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/js/user/instance/createvm.js
+END
+updatevms.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/1237/beyondsphere/beyondsphere-web-user/src/main/webapp/js/user/instance/updatevms.js
+END
+destoryvm.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/js/user/instance/destoryvm.js
+END
+startandshutdownvm.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/js/user/instance/startandshutdownvm.js
+END
+instancelist.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/1237/beyondsphere/beyondsphere-web-user/src/main/webapp/js/user/instance/instancelist.js
+END

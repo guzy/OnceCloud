@@ -1,0 +1,80 @@
+.reg-header {
+	background: #353644;
+	height: 70px;
+}
+.header-account {
+	float: right;
+	padding: 19px 10px;
+}
+.header-account .btn-signin {
+	padding: 5px 20px;
+	font-size: 14px;
+	line-height: 20px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.btn-outline {
+	border: 1px solid #57b382;
+	color: #57b382 !important;
+	background: 0;
+}
+.btn-outline:hover {
+	background: #57b382;
+	color: #fff !important;
+}
+.header-account .btn-signup {
+	padding: 6px 21px;
+	font-size: 14px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.btn-green {
+	background: #57b382;
+	color: #fff !important;
+}
+.btn-session {
+	font-size: 18px;
+	width: 190px;
+}
+.btn-green:hover {
+	background: #4ba575;
+}
+.header-nav {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.header-nav .nav-item {
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+	border-top: 3px solid transparent;
+}
+.header-nav .nav-item a {
+	display: block;
+	color: #fff;
+	padding: 24px 20px 27px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	cursor: pointer;
+	outline: 0;
+}
+.form-wrapper {
+	padding: 50px;
+	background: #eee;
+	margin: 50px;
+}
+.form-wrapper .control-label {
+	line-height: 43px !important;
+}
+.form-wrapper .controls {
+	line-height: 43px !important;
+}
+.form-wrapper input {
+	line-height: 24px !important;
+}
+.form-wrapper .help {
+	padding: 0;
+}

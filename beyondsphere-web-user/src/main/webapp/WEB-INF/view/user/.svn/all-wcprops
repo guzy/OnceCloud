@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/cloudWeb/!svn/ver/3769/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user
+END
+statistics.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/statistics.jsp
+END
+group.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/group.jsp
+END
+deployArrange.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/1048/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/deployArrange.jsp
+END
+deploy.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cloudWeb/!svn/ver/1104/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/deploy.jsp
+END
+alarm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/alarm.jsp
+END
+snapshot.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/snapshot.jsp
+END
+service.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/service.jsp
+END
+application.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/application.jsp
+END
+instance.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/1237/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/instance.jsp
+END
+overview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/overview.jsp
+END
+volume.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/volume.jsp
+END
+registry.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/1122/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/registry.jsp
+END
+template.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/1156/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/template.jsp
+END
+deployModel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/1085/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/deployModel.jsp
+END
+host.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cloudWeb/!svn/ver/1211/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/host.jsp
+END
+consumption.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/consumption.jsp
+END
+distribute.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/1211/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/distribute.jsp
+END
+repository.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/1015/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/repository.jsp
+END
+log.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/log.jsp
+END
+cluster.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/1211/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/cluster.jsp
+END
+image.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/image.jsp
+END
+container.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/container.jsp
+END

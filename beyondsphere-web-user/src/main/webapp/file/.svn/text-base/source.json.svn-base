@@ -1,0 +1,1 @@
+{"name":"nginx","children":[{"name":"upstream bp","children":[{"name":"192.168.207.129:8080"},{"name":"192.168.207.130:8982"}]},{"name":"upstream dm","children":[{"name":"192.168.207.131:8080"},{"name":"192.168.207.133:8982"}]}]}

@@ -1,0 +1,431 @@
+.graph-wrapper {
+	margin: 20px;
+	background: #fff;
+	padding: 20px 50px 50px;
+	overflow: hidden;
+	position: relative;
+}
+
+.graph-title {
+	text-transform: uppercase;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 30px;
+	line-height: 3em;
+}
+
+.graph-actions .btn {
+	display: inline-block;
+	padding: 7px 16px;
+	margin: 0 3px 0 0;
+	font-family: "Microsoft Yahei","微软雅黑",Tahoma,Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background: #525252;
+	color: #fff;
+	border: 0 none;
+	border-bottom: 2px solid #4a4a4a;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all .1s ease-in;
+	-moz-transition: all .1s ease-in;
+	-o-transition: all .1s ease-in;
+}
+
+.graph-title .btn-update, .graph-title .btn-applied, .graph-title .btn-notapply, .graph-title .btn-monitor {
+	line-height: 16px;
+	float: right;
+	margin: 14px 0 14px 14px;
+}
+
+.btn-applied {
+	position: relative;	
+}
+
+.graph-router .actions {
+	position: relative;
+	z-index: 2;
+}
+
+.btn-forbidden {
+cursor: no-drop;
+}
+
+.graph-actions .btn, .graph-actions .btn-forbidden {
+display: block;
+background: #333;
+border-top: 1px solid #3d3d3d;
+border-bottom: 1px solid #2e2e2e;
+color: #fff;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+padding: 15px 12px;
+width: 48px;
+position: relative;
+}
+
+.graph-actions .btn-forbidden {
+color: #777;
+}
+
+.graph-actions .btn:first-child, .graph-actions .btn-forbidden:first-child {
+border-top: 5px solid #1f90c8;
+}
+.graph-actions .btn:first-child, .graph-actions .btn-forbidden:first-child {
+border-top: 5px solid #1f90c8;
+}
+
+.graph-actions .btn .text::before, .graph-actions .btn-forbidden .text::before {
+content: '';
+border-width: 8px;
+border-style: solid;
+border-color: transparent #2a2d2e transparent transparent;
+font-size: 0;
+line-height: 0;
+height: 0;
+position: absolute;
+left: -16px;
+top: 10px;
+}
+
+.graph-actions .btn .text, .graph-actions .btn-forbidden .text {
+display: none;
+position: absolute;
+top: 5px;
+left: 60px;
+padding: 12px;
+height: 40px;
+line-height: 22px;
+width: 100px;
+background: #333;
+padding: 8px;
+color: #fff;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.component-LB-eips {
+width: 200px;
+float: left;
+border-right: 5px solid #333;
+}
+
+.graph-component .btn {
+display: block;
+width: 160px;
+margin: 0 auto 30px;
+border: 1px dashed #a7a7a7;
+background: #fff;
+color: #555;
+position: relative;
+z-index: 3;
+}
+
+.components .btn:hover .glyphicon-globe:before {
+content: "\2b";
+}
+
+components .btn-delete .glyphicon {
+color: #fff;
+font-size: 14px;
+text-align: center;
+}
+
+.component-LB-eips .btn {
+margin: 50px auto;
+}
+.component-LB-eips .btn {
+padding: 13px 10px;
+}
+
+.component-LB-listeners {
+/*  margin-left: 281px;*/
+border-left: 5px solid #333;
+min-height: 110px;
+overflow: hidden;
+}
+
+.component-LB-eips .component-eip::after, .component-LB-eips .btn::after {
+content: '';
+display: block;
+height: 6px;
+width: 20px;
+background: #333;
+position: absolute;
+top: 13px;
+right: -20px;
+}
+
+.component-LB {
+float: left;
+padding: 0 10px;
+position: relative;
+background: #eee;
+}
+
+
+.component-LB-listener {
+min-width: 245px;
+padding: 0 10px;
+background-image: url(../img/user/router.line.svg);
+background-repeat: repeat-x;
+background-position: center center;
+}
+
+.component-LB-listeners .btn-add-listener {
+padding: 13px 10px;
+margin: 50px 0;
+font-style: normal;
+position: relative;
+}
+
+.component-LB .glyphicon {
+display: block;
+width: 56px;
+height: 56px;
+line-height: 56px;
+vertical-align: middle;
+margin: 0 auto;
+text-align: center;
+font-size: 24px;
+}
+
+.component-LB-eips .component-eip {
+width: 165px;
+padding: 0;
+margin: 0 auto;
+text-align: center;
+border: 4px solid #333;
+background: #333;
+color: #fff;
+position: relative;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+component-LB-eips .component-eip::after, .component-LB-eips .btn::after {
+content: '';
+display: block;
+height: 6px;
+width: 20px;
+background: #333;
+position: absolute;
+top: 20px;
+right: -20px;
+}
+
+
+.graph .btn-delete {
+display: inline-block;
+display: none;
+background: #b94a48;
+width: 20px;
+height: 20px;
+border: 2px solid #fff;
+color: #fff;
+text-align: center;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+-webkit-box-shadow: 0 0 3px #777;
+-moz-box-shadow: 0 0 3px #777;
+box-shadow: 0 0 3px #777;
+line-height: 20px;
+}
+
+.component-LB-eips .component-eip .component-id {
+display: inline-block;
+background: #fff;
+width: 120px;
+padding: 8px;
+color: #333;
+font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+font-size: 14px;
+text-align: center;
+margin-left: 5px;
+vertical-align: middle;
+}
+
+component-LB-listener .listener-title {
+float: left;
+padding: 10px;
+margin: 44px 0;
+width: 180px;
+background: #333;
+color: #fff;
+position: relative;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.component-LB-eips .component-eip:hover .btn-delete {
+display: block;
+position: absolute;
+right: -12px;
+top: -12px;
+}
+
+.component-LB-listener .listener-title {
+float: left;
+padding: 10px;
+margin: 44px 0;
+width: 180px;
+background: #333;
+color: #fff;
+position: relative;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.component-LB-listener .component-LB-backends {
+margin-left: 210px;
+height: 144px;
+}
+
+.component-LB-listener .component-LB-backends .component-LB-backend.none {
+background-image: none;
+}
+
+.component-LB-listener .component-LB-backends .component-LB-backend {
+height: 60px;
+width: 32px;
+float: left;
+margin: 41px 10px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: top center;
+position: relative;
+text-align: center;
+}
+
+.component-LB-listener .component-LB-backends .btn {
+background: 0;
+display: block;
+margin: 0 auto;
+padding: 0;
+position: relative;
+border: 0 none;
+width: 30px;
+height: 30px;
+left: 0;
+top: 0;
+}
+
+.component-LB-listener .component-LB-backends .component-LB-backend.instance {
+background-image: url(../img/user/instance.svg);
+}
+
+.component-LB-listener .listener-title:hover .btn-delete {
+z-index: 3;
+display: block;
+position: absolute;
+right: -10px;
+top: -10px;
+}
+
+.component-LB-listener .component-LB-backends .component-LB-backend.down .port {
+color: #777;
+}
+
+
+.component-LB-listener .component-LB-backends .component-LB-backend .port {
+line-height: 92px;
+}
+.component-LB-listener .component-LB-backends .component-LB-backend .component-id, .component-LB-listener .component-LB-backends .component-LB-backend .component-name {
+font-size: 12px;
+width: 100px;
+display: inline-block;
+color: #333;
+position: absolute;
+text-align: left;
+top: -59px;
+left: -13px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+-webkit-transform: rotate(300deg);
+-moz-transform: rotate(300deg);
+-o-transform: rotate(300deg);
+-moz-transform: rotate(300deg);
+-webkit-transform: rotate(300deg);
+writing-mode: lr-tb;
+}
+
+.component-LB-listener .component-LB-backends .btn {
+background: 0;
+display: block;
+margin: 0 auto;
+padding: 0;
+position: relative;
+border: 0 none;
+width: 30px;
+height: 30px;
+left: 0;
+top: 0;
+}
+.btn span.text {
+padding-left: 8px;
+}
+
+.component-LB-listener .component-LB-backends .btn .text {
+display: none;
+}
+.none {
+font-style: italic;
+color: #777;
+}
+
+.component-LB-listener .component-LB-backends .btn:hover .text::before {
+content: '';
+border-width: 8px;
+border-style: solid;
+border-color: #2a2d2e transparent transparent;
+font-size: 0;
+line-height: 0;
+height: 0;
+position: absolute;
+left: 50%;
+top: 32px;
+margin-left: -8px;
+}
+
+.component-LB-listener .component-LB-backends .btn:hover .text {
+display: block;
+background: #333;
+padding: 8px;
+width: 100px;
+text-align: center;
+color: #fff;
+position: absolute;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+top: -38px;
+left: -43px;
+}
+
+
+.component-LB-listener .component-LB-backends .component-LB-backend:hover .btn-delete {
+display: block;
+position: absolute;
+right: -10px;
+top: -10px;
+}
+
+.btn-delete-listener{
+	cursor: pointer;
+}
+
+
+.btn-delete-backend{
+	cursor: pointer;
+}
+

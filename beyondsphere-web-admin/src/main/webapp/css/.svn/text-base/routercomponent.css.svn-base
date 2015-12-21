@@ -1,0 +1,873 @@
+.graph-wrapper {
+	margin: 20px;
+	background: #fff;
+	padding: 20px 50px 50px;
+	overflow: hidden;
+	position: relative;
+}
+
+.graph-title {
+	text-transform: uppercase;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 30px;
+	line-height: 3em;
+}
+
+.graph-actions .btn {
+	display: inline-block;
+	padding: 7px 16px;
+	margin: 0 3px 0 0;
+	font-family: "Microsoft Yahei","微软雅黑",Tahoma,Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background: #525252;
+	color: #fff;
+	border: 0 none;
+	border-bottom: 2px solid #4a4a4a;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all .1s ease-in;
+	-moz-transition: all .1s ease-in;
+	-o-transition: all .1s ease-in;
+}
+
+
+
+.graph-router .actions {
+	position: relative;
+	z-index: 2;
+}
+
+
+.graph-actions .btn, .graph-actions .btn-forbidden {
+display: block;
+background: #333;
+border-top: 1px solid #3d3d3d;
+border-bottom: 1px solid #2e2e2e;
+color: #fff;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+padding: 15px 12px;
+width: 48px;
+position: relative;
+}
+
+.graph-actions .btn-forbidden {
+color: #777;
+}
+
+.graph-actions .btn:first-child, .graph-actions .btn-forbidden:first-child {
+border-top: 5px solid #1f90c8;
+}
+.graph-actions .btn:first-child, .graph-actions .btn-forbidden:first-child {
+border-top: 5px solid #1f90c8;
+}
+
+.graph-actions .btn .text::before, .graph-actions .btn-forbidden .text::before {
+content: '';
+border-width: 8px;
+border-style: solid;
+border-color: transparent #2a2d2e transparent transparent;
+font-size: 0;
+line-height: 0;
+height: 0;
+position: absolute;
+left: -16px;
+top: 10px;
+}
+
+.graph-actions .btn .text, .graph-actions .btn-forbidden .text {
+display: none;
+position: absolute;
+top: 5px;
+left: 60px;
+padding: 12px;
+height: 40px;
+line-height: 22px;
+width: 100px;
+background: #333;
+padding: 8px;
+color: #fff;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.graph-actions .btn-danger {
+background: #bd362f;
+border-bottom: 1px solid #aa312a;
+}
+
+.graph-router .components {
+overflow-x: auto;
+padding: 100px 0;
+}
+
+.graph-router .components {
+min-height: 250px;
+}
+
+.graph-wrapper .actions, .graph-wrapper .components {
+position: relative;
+}
+
+.graph-router .component-router-network {
+margin: 0;
+height: 250px;
+float: left;
+position: relative;
+}
+
+.graph-router .component-router-cloud {
+width: 140px;
+height: 250px;
+background-image: url(../img/user/cloud.svg?v=1);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center 42%;
+position: relative;
+float: left;
+margin-left: 16px;
+}
+
+.graph-router .component-router-network .btn {
+position: absolute;
+width: 139px;
+height: 32px;
+top: 170px;
+left: 16px;
+}
+
+.graph-component .btn {
+display: block;
+width: 109px;
+margin: 0 auto 30px;
+border: 1px dashed #a7a7a7;
+background: #fff;
+color: #555;
+position: relative;
+z-index: 3;
+}
+
+
+.graph-router .component-router-vxnet0 {
+background-image: url(../img/user/router.vxnet0.svg);
+background-repeat: no-repeat;
+background-position: center center;
+height: 250px;
+position: relative;
+float: left;
+width: 5px;
+margin: 0 0 0 40px;
+}
+
+.graph-router .component-router-vxnet0::before {
+content: '';
+width: 40px;
+height: 6px;
+display: block;
+position: absolute;
+left: -40px;
+top: 50%;
+margin-top: -3px;
+background: #333;
+}
+
+.graph-router .component-router-vxnet0::after {
+content: '';
+width: 10px;
+height: 10px;
+background: #fff;
+border: 4px solid #333;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+position: absolute;
+left: -6px;
+top: 50%;
+z-index: 3;
+margin-top: -9px;
+}
+
+.graph-router .component-router-sg {
+background-image: url(../img/user/router.sg.svg);
+background-repeat: no-repeat;
+background-position: center center;
+background-color: #fff;
+background-size: 100%;
+width: 65px;
+height: 150px;
+position: relative;
+float: left;
+margin: 50px 40px 50px 20px;
+border-left: 6px solid #333;
+border-right: 6px solid #333;
+}
+
+.graph-router .component-router-sg::before {
+width: 20px;
+left: -26px;
+}
+
+.graph-router .component-router-sg .sg-name, .graph-router .component-router-sg .sg-id {
+font-size: 14px;
+padding: 8px 12px;
+color: #333;
+display: inline;
+position: absolute;
+top: -50px;
+left: -32px;
+width: 110px;
+text-align: center;
+height: 14px;
+}
+
+
+.component-instance-sg .btn, .component-router-sg .btn {
+display: none;
+position: absolute;
+width: 28px;
+height: 28px;
+right: -16px;
+top: -16px;
+padding: 0;
+border: 2px solid #fff;
+background: #468847;
+color: #fff;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+-webkit-box-shadow: 0 0 3px #777;
+-moz-box-shadow: 0 0 3px #777;
+box-shadow: 0 0 3px #777;
+}
+
+.component-instance-sg .btn .text, .component-router-sg .btn .text {
+display: none;
+position: absolute;
+top: -5px;
+left: 42px;
+padding: 12px;
+height: 22px;
+line-height: 22px;
+width: 150px;
+background: #333;
+padding: 8px;
+color: #fff;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.component-instance-sg .btn .icon, .component-router-sg .btn .icon {
+font-size: 14px;
+line-height: 28px;
+vertical-align: middle;
+}
+
+.graph-router .component-router-sg::before, .graph-router .component-router-sg::after {
+content: '';
+height: 6px;
+display: block;
+position: absolute;
+top: 50%;
+margin-top: -3px;
+background: #333;
+}
+
+.graph-router .component-router {
+width: 64px;
+height: 250px;
+background-image: url(../img/user/router.svg);
+background-position: center center;
+background-size: 100%;
+background-repeat: no-repeat;
+float: left;
+position: relative;
+margin: 0 40px 0 0;
+}
+
+.graph-router .component-router::before {
+content: '';
+width: 10px;
+height: 10px;
+background: #fff;
+border: 4px solid #333;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+position: absolute;
+left: -6px;
+top: 50%;
+z-index: 3;
+margin-top: -9px;
+}
+
+.graph-router .component-router .router-id, .graph-router .component-router .private-ip {
+font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+}
+
+.graph-router .component-router .router-id, .graph-router .component-router .router-name, .graph-router .component-router .private-ip {
+font-size: 14px;
+padding: 8px 12px;
+color: #333;
+display: inline;
+position: absolute;
+top: 60px;
+left: -35px;
+width: 110px;
+text-align: center;
+height: 14px;
+}
+
+
+.graph-router .component-router .router-id, .graph-router .component-router .router-name {
+top: 170px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+
+.graph-router .component-router .router-id, .graph-router .component-router .private-ip {
+font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+}
+
+.graph-router .component-router .router-id, .graph-router .component-router .router-name, .graph-router .component-router .private-ip {
+font-size: 14px;
+padding: 8px 12px;
+color: #333;
+display: inline;
+position: absolute;
+top: 60px;
+left: -35px;
+width: 135px;
+text-align: center;
+height: 32px;
+}
+
+.graph-router .component-router::after {
+content: '';
+width: 40px;
+height: 6px;
+display: block;
+position: absolute;
+right: -40px;
+top: 50%;
+margin-top: -3px;
+background: #333;
+}
+
+.graph-router .component-router-vxnets {
+border-left: 6px solid #333;
+float: left;
+height: 250px;
+min-height: 250px;
+}
+
+.graph-router .component-router-vxnet {
+width: 48px;
+height: 250px;
+background-image: url(../img/user/vxnet.svg);
+background-position: center center;
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0 30px;
+position: relative;
+}
+
+.graph-router .component-router-vxnet::before {
+content: '';
+width: 30px;
+height: 6px;
+background: #333;
+display: block;
+position: absolute;
+left: -30px;
+top: 50%;
+margin-top: -3px;
+}
+
+
+.graph-router .component-router-vxnet .ip-network {
+width: 240px;
+height: 24px;
+color: #333;
+font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+position: absolute;
+left: 70px;
+top: 67%;
+}
+
+.graph-router .component-router-vxnet .vxnet-name, .graph-router .component-router-vxnet .vxnet-id {
+top: 12px;
+color: #333;
+position: absolute;
+left: -36px;
+width: 120px;
+text-align: center;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.graph-router .component-vxnet-instances {
+float: left;
+width: 245px;
+min-width: 245px;
+margin-left: 48px;
+padding: 0 15px;
+background-image: url(../img/user/router.line.svg);
+background-repeat: repeat-x;
+background-position: center center;
+}
+
+.graph-router .component-vxnet-instance {
+height: 60px;
+width: 32px;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+background-image: url(../img/user/instance.svg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: top center;
+position: relative;
+}
+
+.graph-router .component-vxnet-instance .btn-delete {
+position: absolute;
+right: -12px;
+top: -12px;
+}
+
+.graph .btn-delete {
+display: inline-block;
+display: none;
+background: #b94a48;
+width: 20px;
+height: 20px;
+border: 2px solid #fff;
+text-align: center;
+color: #fff;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+-webkit-box-shadow: 0 0 3px #777;
+-moz-box-shadow: 0 0 3px #777;
+box-shadow: 0 0 3px #777;
+}
+
+.graph-router .component-vxnet-instance .private-ip {
+display: inline-block;
+font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+width: 32px;
+text-align: center;
+line-height: 22px;
+}
+
+.graph-router .component-vxnet-instance .instance-name, .graph-router .component-vxnet-instance .instance-id {
+width: 70px;
+display: inline-block;
+color: #333;
+position: absolute;
+top: -45px;
+left: -8px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+-webkit-transform: rotate(300deg);
+-moz-transform: rotate(300deg);
+-o-transform: rotate(300deg);
+-moz-transform: rotate(300deg);
+-webkit-transform: rotate(300deg);
+writing-mode: lr-tb;
+}
+
+
+
+.graph-router .component-vxnet-instance {
+height: 60px;
+width: 32px;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+background-image: url(../img/user/instance.svg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: top center;
+position: relative;
+}
+
+.graph-router .component-vxnet-instance.none {
+background-image: none;
+}
+
+.graph-router .component-vxnet-instance.none .btn {
+background-color: none;
+display: block;
+margin: 0 auto;
+padding: 0;
+position: relative;
+border: 0 none;
+width: 30px;
+height: 30px;
+left: 0;
+top: 0;
+}
+
+.graph-router .component-vxnet-instance.none .btn .text {
+display: none;
+}
+
+.btn span.text {
+padding-left: 8px;
+}
+
+.graph-router .component-router-vxnet.none {
+background: 0;
+}
+
+.graph-router .component-router-vxnet {
+width: 48px;
+height: 250px;
+background-image: url(../img/user/vxnet.svg);
+background-position: center center;
+background-size: 100%;
+background-repeat: no-repeat;
+margin: 0 30px;
+position: relative;
+}
+
+.none {
+font-style: italic;
+color: #777;
+}
+
+.graph-router .component-router-vxnet::before {
+content: '';
+width: 30px;
+height: 6px;
+background: #333;
+display: block;
+position: absolute;
+left: -30px;
+top: 50%;
+margin-top: -3px;
+}
+
+.graph-router .component-router-vxnet.none .btn {
+width: 46px;
+height: 46px;
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+padding: 0;
+line-height: 46px;
+vertical-align: middle;
+top: 101px;
+left: 0;
+}
+
+[class*=Eip]::before, [class*=Eips]::before, .icon-eip::before, .icon-eips::before {
+content: '\E776';
+}
+
+.graph-router .component-router-vxnet0::before {
+content: '';
+width: 40px;
+height: 6px;
+display: block;
+position: absolute;
+left: -40px;
+top: 50%;
+margin-top: -3px;
+background: #333;
+}
+
+.graph-router .component-router-vxnet0::after {
+content: '';
+width: 15px;
+height: 15px;
+background: #fff;
+border: 4px solid #333;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+position: absolute;
+left: -6px;
+top: 50%;
+z-index: 3;
+margin-top: -9px;
+}
+
+.graph-router .component-router-sg::after {
+width: 40px;
+right: -46px;
+}
+.graph-router .component-router-sg::before, .graph-router .component-router-sg::after {
+content: '';
+height: 6px;
+display: block;
+position: absolute;
+top: 50%;
+margin-top: -3px;
+background: #333;
+}
+
+.graph-router .component-router::before {
+content: '';
+width: 10px;
+height: 10px;
+background: #fff;
+border: 4px solid #333;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+position: absolute;
+left: -6px;
+top: 50%;
+z-index: 3;
+margin-top: -9px;
+}
+
+.graph-router .component-router-vxnet0::after {
+content: '';
+width: 15px;
+height: 15px;
+background: #fff;
+border: 4px solid #333;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+position: absolute;
+left: -6px;
+top: 50%;
+z-index: 3;
+margin-top: -9px;
+}
+
+.component-instance-sg .btn .icon::before, .component-router-sg .btn .icon::before {
+content: '\270E';
+}
+
+.graph-router .component-router::before {
+content: '';
+width: 15px;
+height: 15px;
+background: #fff;
+border: 4px solid #333;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+position: absolute;
+left: -6px;
+top: 50%;
+z-index: 3;
+margin-top: -9px;
+}
+
+.graph-router .component-router .router-id, .graph-router .component-router .router-name {
+top: 170px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+
+.graph-router .component-router-vxnet.none .btn .text {
+display: none;
+position: absolute;
+top: 5px;
+left: 60px;
+padding: 12px;
+height: 38px;
+line-height: 22px;
+width: 100px;
+background: #333;
+padding: 8px;
+color: #fff;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+[class*=Vxnet]::before, .icon-vxnet::before, .icon-vxnets::before {
+content: '\21C6';
+}
+
+
+[class^=icon-]:after, [class*=" icon-"]:after, [class^=icon-]:before, [class*=" icon-"]:before {
+font-family: Entypo;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+display: inline-block;
+width: 1em;
+text-decoration: none;
+font-size: 34px;
+}
+
+
+.graph-router .component-router-eip {
+position: absolute;
+top: 170px;
+}
+
+.component-instance-eip, .component-router-eip {
+width: 165px;
+padding: 0;
+margin: 0 auto;
+text-align: center;
+border: 4px solid #333;
+background: #333;
+color: #fff;
+position: relative;
+margin-bottom: 30px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+z-index: 2;
+}
+
+.graph-router .component-router-eip::after {
+display: none;
+}
+
+
+.component-instance-eip::after, .component-router-eip::after {
+content: '';
+width: 6px;
+height: 30px;
+display: block;
+margin: 0 auto;
+background: #333;
+position: absolute;
+bottom: -34px;
+left: -3px;
+margin-left: 50%;
+}
+
+.component-instance-eip .component-id, .component-router-eip .component-id {
+display: inline-block;
+background: #fff;
+width: 120px;
+padding: 8px;
+color: #333;
+font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+font-size: 14px;
+text-align: center;
+margin-left: 5px;
+}
+
+.components .btn:hover .glyphicon-globe:before {
+content: "\2b";
+}
+
+components .btn-delete .glyphicon {
+color: #fff;
+font-size: 14px;
+text-align: center;
+}
+
+.component-instance-eip:hover .btn-delete, .component-router-eip:hover .btn-delete {
+display: block;
+position: absolute;
+right: -12px;
+top: -12px;
+}
+
+.component-router-sg:hover #changefirewall{
+display: block;
+}
+
+.component-router-sg #changefirewall:hover .glyphicon-pencil{
+display: block;
+}
+
+.graph-router .component-router-vxnet:hover .btn-delete-vxnet {
+display: block;
+position: absolute;
+left: -27px;
+}
+
+.graph-router .component-vxnet-instance:hover .btn-delete {
+display: block;
+}
+
+[class*=Instance]::before, .icon-instance::before, .icon-instances::before {
+content: 'A';
+}
+
+[class^=icon-]:after, [class*=" icon-"]:after, [class^=icon-]:before, [class*=" icon-"]:before {
+font-family: Entypo;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+display: inline-block;
+width: 1em;
+text-decoration: none;
+}
+
+.graph-router .component-vxnet-instance.none .btn:hover .text {
+display: none;
+}
+
+.graph-router .component-router-vxnet.none .btn .text::before {
+content: '';
+border-width: 8px;
+border-style: solid;
+border-color: transparent #2a2d2e transparent transparent;
+font-size: 0;
+line-height: 0;
+height: 0;
+position: absolute;
+left: -16px;
+top: 10px;
+}
+
+
+.graph-router .component-vxnet-instance.none .btn:hover .text {
+display: block;
+background: #333;
+padding: 8px;
+width: 100px;
+text-align: center;
+color: #fff;
+position: absolute;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+top: -38px;
+left: -43px;
+}
+
+
+.graph-router .component-vxnet-instance.none .btn .glyphicon {
+color: #777;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+vertical-align: middle;
+}
+
+
+.graph-router .component-vxnet-instance.none .btn:hover .text::before {
+content: '';
+border-width: 8px;
+border-style: solid;
+border-color: #2a2d2e transparent transparent;
+font-size: 0;
+line-height: 0;
+height: 0;
+position: absolute;
+left: 50%;
+top: 32px;
+margin-left: -8px;
+}
+

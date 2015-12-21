@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/1237/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/controller/forward
+END
+AccountController.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/cloudWeb/!svn/ver/1217/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/controller/forward/AccountController.java
+END
+ModalController.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/cloudWeb/!svn/ver/1237/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/controller/forward/ModalController.java
+END
+UserController.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cloudWeb/!svn/ver/1230/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/controller/forward/UserController.java
+END
+DetailController.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cloudWeb/!svn/ver/1198/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/controller/forward/DetailController.java
+END
+CreateController.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cloudWeb/!svn/ver/1122/beyondsphere/beyondsphere-web-user/src/main/java/com/beyondsphere/controller/forward/CreateController.java
+END

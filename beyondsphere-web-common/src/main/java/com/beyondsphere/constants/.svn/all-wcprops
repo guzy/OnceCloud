@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cloudWeb/!svn/ver/3767/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/constants
+END
+LogEnumConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/1000/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/constants/LogEnumConstant.java
+END
+HAConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/constants/HAConstants.java
+END
+LoggerConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cloudWeb/!svn/ver/1141/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/constants/LoggerConfig.java
+END
+PowerConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/cloudWeb/!svn/ver/1184/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/constants/PowerConstant.java
+END
+LogConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/3767/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/constants/LogConstant.java
+END
+SystemConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/1141/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/constants/SystemConstant.java
+END

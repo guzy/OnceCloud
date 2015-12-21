@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cloudWeb/!svn/ver/1136/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core
+END
+CertificateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/CertificateUtils.java
+END
+GoLangFileMatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/GoLangFileMatchException.java
+END
+InvalidRepositoryNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/InvalidRepositoryNameException.java
+END
+DockerClientBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/DockerClientBuilder.java
+END
+KeystoreSSLConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/KeystoreSSLConfig.java
+END
+GoLangFileMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/GoLangFileMatch.java
+END
+AuthConfigFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/AuthConfigFile.java
+END
+LocalDirectorySSLConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/LocalDirectorySSLConfig.java
+END
+SSLConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/SSLConfig.java
+END
+DockerClientImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/DockerClientImpl.java
+END
+FilePathUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/FilePathUtil.java
+END
+GoLangMatchFileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/GoLangMatchFileFilter.java
+END
+CompressArchiveUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/CompressArchiveUtil.java
+END
+DockerClientConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cloudWeb/!svn/ver/1135/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/DockerClientConfig.java
+END
+NameParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/core/NameParser.java
+END

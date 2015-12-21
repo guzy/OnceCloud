@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/cloudWeb/!svn/ver/1211/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create
+END
+createservice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createservice.jsp
+END
+createcluster.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/1211/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createcluster.jsp
+END
+createcontainer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cloudWeb/!svn/ver/1158/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createcontainer.jsp
+END
+createimage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createimage.jsp
+END
+createalarmrule.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createalarmrule.jsp
+END
+createinstance.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createinstance.jsp
+END
+createcontainerimage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cloudWeb/!svn/ver/1087/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createcontainerimage.jsp
+END
+createvolume.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createvolume.jsp
+END
+createregistry.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/1123/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createregistry.jsp
+END
+createalarm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createalarm.jsp
+END
+creategroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/creategroup.jsp
+END
+createhost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/1211/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createhost.jsp
+END
+createcontainertemplate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createcontainertemplate.jsp
+END
+createsnapshot.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-user/src/main/webapp/WEB-INF/view/user/create/createsnapshot.jsp
+END

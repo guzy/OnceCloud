@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/jaxrs/connector
+END
+ApacheConnectorProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/jaxrs/connector/ApacheConnectorProvider.java
+END
+ApacheConnectorClientResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/jaxrs/connector/ApacheConnectorClientResponse.java
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/jaxrs/connector/README.txt
+END
+ApacheConnector.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/cloudWeb/!svn/ver/955/beyondsphere/beyondsphere-docker-api/src/main/java/com/github/dockerjava/jaxrs/connector/ApacheConnector.java
+END

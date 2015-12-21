@@ -1,0 +1,53 @@
+.detail-item .foreend {
+	padding: 30px;
+	background: #ecf6fb;
+	margin-bottom: 10px;
+}
+.foreend .fe_bar {
+	margin: 0 0 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d9edf7;
+	color: #3a87ad;
+	overflow: hidden;
+}
+.fe_bar .foretitle {
+	line-height: 26px;
+	font-size: 16px;
+	display: inline;
+}
+.fe_bar .btn-group {
+	display: inline;
+	float: right;
+}
+.foreend .btn {
+	padding: 3px 10px;
+}
+.foreend .glyphicon {
+	margin-right: 6px;
+	font-size: 12px;
+}
+.foreend .settings {
+	margin: 0 0 5px;
+	padding-left: 0;
+	color: #777;
+}
+.settings ul, .settings li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.settings label {
+	margin-right: 20px;
+	display: inline-block;
+	min-width: 150px;
+}
+.foreend .once-toolbar {
+	margin: 0 0 10px 0;
+}
+.foreend .once-toolbar .btn {
+	margin-right: 3px;
+}
+.foreend.lb-disable {
+	background: #f3f3f3;
+	color: #ccc;
+}

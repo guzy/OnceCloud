@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cloudWeb/!svn/ver/1000/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/util
+END
+TimeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/util/TimeUtils.java
+END
+ObjectUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/util/ObjectUtils.java
+END
+IOUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/util/IOUtils.java
+END
+JsonUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/util/JsonUtils.java
+END
+Utilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/1000/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/util/Utilities.java
+END
+SendMail.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/968/beyondsphere/beyondsphere-web-common/src/main/java/com/beyondsphere/util/SendMail.java
+END

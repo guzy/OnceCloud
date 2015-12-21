@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cloudWeb/!svn/ver/1215/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal
+END
+upfile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/upfile.jsp
+END
+addtopool.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/addtopool.jsp
+END
+imageupdate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/imageupdate.jsp
+END
+migratehost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/migratehost.jsp
+END
+storageofhost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/storageofhost.jsp
+END
+monitor.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/monitor.jsp
+END
+modify.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/modify.jsp
+END
+addtohost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/addtohost.jsp
+END
+limitdisk.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/limitdisk.jsp
+END
+power.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/power.jsp
+END
+addtorouter.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/1067/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/addtorouter.jsp
+END
+instanceAdd2Router.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/1050/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/instanceAdd2Router.jsp
+END
+modifynetwork.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/modifynetwork.jsp
+END
+modifyUSB.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/1215/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/modifyUSB.jsp
+END
+modifyuserinfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/modifyuserinfo.jsp
+END
+modifycostdetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/modifycostdetail.jsp
+END
+imageshare.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/imageshare.jsp
+END
+setauth.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/setauth.jsp
+END
+accordance.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/accordance.jsp
+END
+register.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/register.jsp
+END
+modifyhost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/modifyhost.jsp
+END
+limitnetwork.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/limitnetwork.jsp
+END
+vmtoimage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/vmtoimage.jsp
+END
+migration.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/1215/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/migration.jsp
+END
+access.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/access.jsp
+END
+createmap.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/createmap.jsp
+END
+recover.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/recover.jsp
+END
+modifyprice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/modifyprice.jsp
+END
+modifycost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/modifycost.jsp
+END
+modifyArea.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/modifyArea.jsp
+END
+joinvlan.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/joinvlan.jsp
+END
+distributeVm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/distributeVm.jsp
+END
+hamanager.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/modal/hamanager.jsp
+END

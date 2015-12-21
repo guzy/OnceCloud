@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/cloudWeb/!svn/ver/3769/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao
+END
+VnetDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/1002/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/VnetDAO.java
+END
+HostDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/HostDAO.java
+END
+RouterDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/1109/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/RouterDAO.java
+END
+LogDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/3769/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/LogDAO.java
+END
+HostSRDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/HostSRDAO.java
+END
+ContainerDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/1192/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/ContainerDAO.java
+END
+AlarmRuleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/AlarmRuleDAO.java
+END
+ISODAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/ISODAO.java
+END
+CostDetailDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/CostDetailDAO.java
+END
+ProfitMonthDetailDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/ProfitMonthDetailDAO.java
+END
+PowerDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/PowerDAO.java
+END
+AlarmLogDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/AlarmLogDAO.java
+END
+SnapshotDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/959/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/SnapshotDAO.java
+END
+RoleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/RoleDAO.java
+END
+PerformanceDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/957/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/PerformanceDAO.java
+END
+CostMonthDetailDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/CostMonthDetailDAO.java
+END
+UnitpriceDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/UnitpriceDAO.java
+END
+OverViewDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/1002/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/OverViewDAO.java
+END
+LogBackupDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/957/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/LogBackupDAO.java
+END
+VolumeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/959/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/VolumeDAO.java
+END
+RegistryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/1120/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/RegistryDAO.java
+END
+ProfitMonthDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/ProfitMonthDAO.java
+END
+TemplateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/959/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/TemplateDAO.java
+END
+VMipDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/959/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/VMipDAO.java
+END
+VSphereDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/959/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/VSphereDAO.java
+END
+ActionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/ActionDAO.java
+END
+CostMonthDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/CostMonthDAO.java
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/959/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/UserDAO.java
+END
+RepositoryDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/1120/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/RepositoryDAO.java
+END
+VDIDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cloudWeb/!svn/ver/959/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/VDIDAO.java
+END
+VMDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cloudWeb/!svn/ver/1145/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/VMDAO.java
+END
+ImageDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/1002/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/ImageDAO.java
+END
+HostInformationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/1109/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/HostInformationDAO.java
+END
+HaDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/HaDAO.java
+END
+NetworkDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/1109/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/NetworkDAO.java
+END
+QuotaDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/1002/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/QuotaDAO.java
+END
+AccountingDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/AccountingDAO.java
+END
+StatisticsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/StatisticsDAO.java
+END
+AlarmDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/AlarmDAO.java
+END
+GroupDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/GroupDAO.java
+END
+CostTypeDetailDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/CostTypeDetailDAO.java
+END
+PerformanceVSphereDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/957/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/PerformanceVSphereDAO.java
+END
+RoleActionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/RoleActionDAO.java
+END
+QADAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/QADAO.java
+END
+QueryListDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/QueryListDAO.java
+END
+ContainerPerformanceDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/ContainerPerformanceDAO.java
+END
+StorageDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/StorageDAO.java
+END
+AreaDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/AreaDAO.java
+END
+PoolDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/1234/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/PoolDAO.java
+END
+CostTypeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/CostTypeDAO.java
+END
+DatacenterDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/dao/DatacenterDAO.java
+END

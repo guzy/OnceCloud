@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/cloudWeb/!svn/ver/1233/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create
+END
+createmac.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createmac.jsp
+END
+createrole.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createrole.jsp
+END
+createswitch.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createswitch.jsp
+END
+createstorage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cloudWeb/!svn/ver/1225/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createstorage.jsp
+END
+createarea.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createarea.jsp
+END
+createcost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createcost.jsp
+END
+createpool.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/1233/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createpool.jsp
+END
+createdatacenter.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createdatacenter.jsp
+END
+createinstancewithiso.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createinstancewithiso.jsp
+END
+createhost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createhost.jsp
+END
+createuser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createuser.jsp
+END
+createrouter.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/1067/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createrouter.jsp
+END
+createimage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createimage.jsp
+END
+createhostinformation.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/cloudWeb/!svn/ver/1025/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createhostinformation.jsp
+END
+createusb.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/1225/beyondsphere/beyondsphere-web-admin/src/main/webapp/WEB-INF/view/admin/create/createusb.jsp
+END

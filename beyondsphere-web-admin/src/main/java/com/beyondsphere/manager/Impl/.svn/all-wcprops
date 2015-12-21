@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cloudWeb/!svn/ver/3769/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl
+END
+CostStatisticsManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/CostStatisticsManagerImpl.java
+END
+SRManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/SRManagerImpl.java
+END
+ISOManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/1117/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/ISOManagerImpl.java
+END
+CostDetailManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/CostDetailManagerImpl.java
+END
+PowerManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/PowerManagerImpl.java
+END
+AccountManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/AccountManagerImpl.java
+END
+RoleManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cloudWeb/!svn/ver/1028/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/RoleManagerImpl.java
+END
+PerformanceManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cloudWeb/!svn/ver/967/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/PerformanceManagerImpl.java
+END
+UnitpriceManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/UnitpriceManagerImpl.java
+END
+VolumeManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/VolumeManagerImpl.java
+END
+UserManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/UserManagerImpl.java
+END
+CostMonthManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/CostMonthManagerImpl.java
+END
+VMManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/1225/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/VMManagerImpl.java
+END
+ImageManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/ImageManagerImpl.java
+END
+HostInformationManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/cloudWeb/!svn/ver/1113/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/HostInformationManagerImpl.java
+END
+ProfitDetailManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/ProfitDetailManagerImpl.java
+END
+HaManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/HaManagerImpl.java
+END
+NetworkManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/cloudWeb/!svn/ver/1108/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/NetworkManagerImpl.java
+END
+AccountingManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/AccountingManagerImpl.java
+END
+StatisticsManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/StatisticsManagerImpl.java
+END
+CostTypeDetailManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/CostTypeDetailManagerImpl.java
+END
+PerformanceVSphereMangerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/PerformanceVSphereMangerImpl.java
+END
+QAManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/QAManagerImpl.java
+END
+MapLocationManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/MapLocationManagerImpl.java
+END
+AreaManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/AreaManagerImpl.java
+END
+PoolManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cloudWeb/!svn/ver/1233/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/PoolManagerImpl.java
+END
+DatacenterManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/DatacenterManagerImpl.java
+END
+CostTypeManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/CostTypeManagerImpl.java
+END
+HostManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cloudWeb/!svn/ver/1115/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/HostManagerImpl.java
+END
+RouterManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cloudWeb/!svn/ver/1113/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/RouterManagerImpl.java
+END
+LogManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/3769/beyondsphere/beyondsphere-web-admin/src/main/java/com/beyondsphere/manager/Impl/LogManagerImpl.java
+END

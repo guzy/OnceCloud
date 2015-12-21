@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cloudWeb/!svn/ver/1146/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity
+END
+OCHost.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCHost.java
+END
+RoleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/RoleAction.java
+END
+QA.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/QA.java
+END
+OCLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCLog.java
+END
+OCVM.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/1146/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCVM.java
+END
+OCVDI.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCVDI.java
+END
+OverView.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/1002/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OverView.java
+END
+Registry.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/1120/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Registry.java
+END
+OCHa.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCHa.java
+END
+OCStatistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCStatistics.java
+END
+CostMonth.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/CostMonth.java
+END
+OCGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCGroup.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/User.java
+END
+Image.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/984/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Image.java
+END
+OCRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCRole.java
+END
+OCLogBackup.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCLogBackup.java
+END
+CostDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/CostDetail.java
+END
+Alarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Alarm.java
+END
+OCVMip.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCVMip.java
+END
+Snapshot.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Snapshot.java
+END
+OCAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCAction.java
+END
+CostMonthDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/CostMonthDetail.java
+END
+Storage.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Storage.java
+END
+Volume.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Volume.java
+END
+Area.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/1146/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Area.java
+END
+PoolRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/PoolRecord.java
+END
+ProfitMonth.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/ProfitMonth.java
+END
+Datacenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Datacenter.java
+END
+CostType.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/CostType.java
+END
+OCNetwork.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/cloudWeb/!svn/ver/1038/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCNetwork.java
+END
+Vnet.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/1002/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Vnet.java
+END
+Repository.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/1146/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Repository.java
+END
+Router.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cloudWeb/!svn/ver/1007/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Router.java
+END
+HostSR.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/HostSR.java
+END
+HostInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/1024/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/HostInformation.java
+END
+OCUnitprice.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCUnitprice.java
+END
+AlarmRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/AlarmRule.java
+END
+Quota.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/1002/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Quota.java
+END
+ISO.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/ISO.java
+END
+OCPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/OCPool.java
+END
+Power.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/Power.java
+END
+ProfitMonthDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/ProfitMonthDetail.java
+END
+CostTypeDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/CostTypeDetail.java
+END
+AlarmLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-dao/src/main/java/com/beyondsphere/entity/AlarmLog.java
+END

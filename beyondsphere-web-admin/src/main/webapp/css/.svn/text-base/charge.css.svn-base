@@ -1,0 +1,57 @@
+.charge-summary h1 {
+	font-size: 20px;
+}
+.charge-summary h1 .price {
+	font-size: 20px;
+}
+.summary-item {
+	cursor: pointer;
+	padding: 8px 20px;
+	background: #eee;
+	font-size: 14px;
+	color: #428bca;
+	margin-bottom: 8px;
+	margin-right: 5px;
+	display: inline-block;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.summary-item.selected {
+	background: #428bca;
+	color: #fff;
+	position: relative;
+}
+.summary-item .summary-name {
+	padding-left: 10px;
+	line-height: 25px;
+}
+.summary-item .sum {
+	font-weight: 700;
+	display: block;
+	line-height: 1.6em;
+}
+.summary-item .sum .unit {
+	padding: 0 0 0 6px;
+	color: #428bca;
+}
+.summary-item.selected .unit {
+	padding: 0 0 0 6px;
+	color: #fff;
+}
+.query-bar .control-label {
+	width: 100px;
+	padding-left: 20px;
+	text-align: left;
+}
+.query-bar .controls {
+	margin-left: 110px;
+}
+.query-bar label.inline {
+	font-size: 14px;
+	margin: 0;
+	line-height: 35px;
+}
+.query-bar .form-actions {
+	padding-left: 120px;
+}

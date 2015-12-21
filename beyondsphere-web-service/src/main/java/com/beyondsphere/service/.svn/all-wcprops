@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/cloudWeb/!svn/ver/3769/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service
+END
+LogService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/3769/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/LogService.java
+END
+ContainerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/1212/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/ContainerService.java
+END
+CostStatisticsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/CostStatisticsService.java
+END
+SRService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/SRService.java
+END
+ModifyService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/ModifyService.java
+END
+ISOService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/ISOService.java
+END
+CostDetailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/CostDetailService.java
+END
+AccountService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/AccountService.java
+END
+PowerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/PowerService.java
+END
+AlarmLogService.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/AlarmLogService.java
+END
+SnapshotService.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/SnapshotService.java
+END
+PerformanceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/PerformanceService.java
+END
+RoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/RoleService.java
+END
+UnitpriceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/UnitpriceService.java
+END
+CaptchaService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/CaptchaService.java
+END
+VolumeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/VolumeService.java
+END
+LogBackupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/LogBackupService.java
+END
+RegistryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/1121/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/RegistryService.java
+END
+AllocateMACFromRandom.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/AllocateMACFromRandom.java
+END
+VMipService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/VMipService.java
+END
+TemplateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/1147/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/TemplateService.java
+END
+VSphereService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/VSphereService.java
+END
+UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/UserService.java
+END
+CostMonthService.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/CostMonthService.java
+END
+RepositoryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/RepositoryService.java
+END
+VMService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/cloudWeb/!svn/ver/1147/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/VMService.java
+END
+ImageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/ImageService.java
+END
+NOVNCService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/NOVNCService.java
+END
+ContainerLogService.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/ContainerLogService.java
+END
+ProfitDetailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/ProfitDetailService.java
+END
+HaService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/HaService.java
+END
+NetworkService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/NetworkService.java
+END
+AccountingService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/AccountingService.java
+END
+StatisticsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/StatisticsService.java
+END
+GroupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/GroupService.java
+END
+AlarmService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/AlarmService.java
+END
+CostTypeDetailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/CostTypeDetailService.java
+END
+PerformanceVSphereService.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/PerformanceVSphereService.java
+END
+ConnectionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/ConnectionService.java
+END
+VlanService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/VlanService.java
+END
+QAService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/QAService.java
+END
+ContainerPerformanceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/ContainerPerformanceService.java
+END
+MapLocationService.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/MapLocationService.java
+END
+AreaService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/AreaService.java
+END
+PoolService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/cloudWeb/!svn/ver/1235/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/PoolService.java
+END
+PerformanceManger.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/PerformanceManger.java
+END
+DatacenterService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/DatacenterService.java
+END
+CostTypeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/CostTypeService.java
+END
+HostService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/cloudWeb/!svn/ver/954/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/HostService.java
+END
+ProfitManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cloudWeb/!svn/ver/970/beyondsphere/beyondsphere-web-service/src/main/java/com/beyondsphere/service/ProfitManager.java
+END

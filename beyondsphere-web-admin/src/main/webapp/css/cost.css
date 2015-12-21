@@ -1,0 +1,43 @@
+.costinfo{
+	padding:0px;
+}
+.item{
+	margin-left:60px;
+}
+.type{
+	margin-top:10px;
+}
+.item .typeradio{
+	padding-top:7px;
+}
+.change-info{
+	padding:5px 10px 5px 10px;
+	text-indent: 25px;
+	line-height: 20px;
+}
+
+.ui-spinner {
+	height:20px;
+}
+.ui-spinner-input {
+	border:none;
+	width:18px;
+	background:none;
+	color:inherit;
+	vertical-align:top;
+	margin:0px 22px 0px 1px;
+}
+.ui-widget {
+	font-size:12px;
+}
+input[type=text].spinner {
+	border:0px solid;
+	width:60px;
+	height:20px;
+	padding:0px;
+}
+.ui-state-hover {
+	border:0px solid;
+	width:15px;
+	margin-left:0px;
+}
