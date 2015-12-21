@@ -10,9 +10,9 @@ import java.util.List;
 
 import org.json.JSONObject;
 
-import com.beyondsphere.entity.OCRole;
-import com.beyondsphere.model.AuthNode;
-import com.beyondsphere.model.PagedList;
+import com.oncecloud.entity.OCRole;
+import com.oncecloud.model.AuthNode;
+import com.oncecloud.model.PagedList;
 
 public interface RoleManager {
 

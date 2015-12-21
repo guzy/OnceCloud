@@ -11,10 +11,10 @@ import org.Xen.API.VM;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 
-import com.beyondsphere.core.constant.Constant;
-import com.beyondsphere.dao.ImageDAO;
-import com.beyondsphere.dao.VDIDAO;
-import com.beyondsphere.entity.Image;
+import com.oncecloud.core.constant.Constant;
+import com.oncecloud.dao.ImageDAO;
+import com.oncecloud.dao.VDIDAO;
+import com.oncecloud.entity.Image;
 
 /**
  * @author hty

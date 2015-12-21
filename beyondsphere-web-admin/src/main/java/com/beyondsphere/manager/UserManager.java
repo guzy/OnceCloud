@@ -10,7 +10,7 @@ import java.util.Date;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.beyondsphere.entity.User;
+import com.oncecloud.entity.User;
 
 public interface UserManager {
 

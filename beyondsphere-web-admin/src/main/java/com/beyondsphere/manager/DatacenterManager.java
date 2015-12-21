@@ -9,7 +9,7 @@ import java.util.Map;
 
 import org.json.JSONArray;
 
-import com.beyondsphere.entity.Datacenter;
+import com.oncecloud.entity.Datacenter;
 
 public interface DatacenterManager {
 

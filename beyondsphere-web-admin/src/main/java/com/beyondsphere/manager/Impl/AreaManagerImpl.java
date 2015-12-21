@@ -11,9 +11,9 @@ import javax.annotation.Resource;
 import org.json.JSONArray;
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.Area;
 import com.beyondsphere.manager.AreaManager;
-import com.beyondsphere.service.AreaService;
+import com.oncecloud.entity.Area;
+import com.oncecloud.service.AreaService;
 
 @Service("AreaManager")
 public class AreaManagerImpl implements AreaManager {

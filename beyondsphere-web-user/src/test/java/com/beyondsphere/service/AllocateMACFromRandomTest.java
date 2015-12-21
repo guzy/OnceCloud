@@ -11,6 +11,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
+import com.oncecloud.service.AllocateMACFromRandom;
+
 /**
  * @author hty
  * 
@@ -25,7 +27,7 @@ public class AllocateMACFromRandomTest {
 
 	/**
 	 * Test method for
-	 * {@link com.beyondsphere.service.AllocateMACFromRandom#getMac()}.
+	 * {@link com.oncecloud.service.AllocateMACFromRandom#getMac()}.
 	 */
 	@Test
 	public final void testGetMac() {

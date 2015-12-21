@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.beyondsphere.entity.User;
 import com.beyondsphere.manager.NetworkManager;
 import com.beyondsphere.manager.RouterManager;
 import com.beyondsphere.manager.UserManager;
-import com.beyondsphere.model.CreateRouterModel;
-import com.beyondsphere.service.UserService;
+import com.oncecloud.entity.User;
+import com.oncecloud.model.CreateRouterModel;
+import com.oncecloud.service.UserService;
 
 
 @RequestMapping("/RouterAction")

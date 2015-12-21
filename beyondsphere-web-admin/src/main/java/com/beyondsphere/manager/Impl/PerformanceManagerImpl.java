@@ -7,7 +7,7 @@ import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
 import com.beyondsphere.manager.PerformanceManager;
-import com.beyondsphere.service.PerformanceService;
+import com.oncecloud.service.PerformanceService;
 
 @Service("PerformanceManager")
 public class PerformanceManagerImpl implements PerformanceManager {

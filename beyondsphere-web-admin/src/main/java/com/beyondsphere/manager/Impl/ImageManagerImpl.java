@@ -12,13 +12,13 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.Image;
-import com.beyondsphere.entity.OCHost;
 import com.beyondsphere.manager.ImageManager;
-import com.beyondsphere.model.ImageStatus;
-import com.beyondsphere.core.ImageCore;
-import com.beyondsphere.service.HostService;
-import com.beyondsphere.service.ImageService;
+import com.oncecloud.core.ImageCore;
+import com.oncecloud.entity.Image;
+import com.oncecloud.entity.OCHost;
+import com.oncecloud.model.ImageStatus;
+import com.oncecloud.service.HostService;
+import com.oncecloud.service.ImageService;
 
 @Service("ImageManager")
 public class ImageManagerImpl implements ImageManager {

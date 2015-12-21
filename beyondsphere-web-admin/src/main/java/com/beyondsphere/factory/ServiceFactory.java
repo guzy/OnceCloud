@@ -9,9 +9,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.beyondsphere.util.OnceProperties;
-import com.beyondsphere.wrapper.MACServiceWrapper;
-import com.beyondsphere.wrapper.VNCServiceWrapper;
+import com.oncecloud.util.OnceProperties;
+import com.oncecloud.wrapper.MACServiceWrapper;
+import com.oncecloud.wrapper.VNCServiceWrapper;
 
 @Configuration
 @ComponentScan

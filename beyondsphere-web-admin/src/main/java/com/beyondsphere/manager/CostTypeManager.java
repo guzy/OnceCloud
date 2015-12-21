@@ -10,7 +10,7 @@ import java.util.List;
 
 import org.json.JSONArray;
 
-import com.beyondsphere.entity.CostType;
+import com.oncecloud.entity.CostType;
 
 public interface CostTypeManager {
 

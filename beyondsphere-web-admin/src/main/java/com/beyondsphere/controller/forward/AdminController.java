@@ -14,9 +14,9 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
 
 import com.beyondsphere.helper.AccordanceHelper;
-import com.beyondsphere.model.UserLevel;
-import com.beyondsphere.constants.SystemConstant;
-import com.beyondsphere.entity.User;
+import com.oncecloud.constants.SystemConstant;
+import com.oncecloud.entity.User;
+import com.oncecloud.model.UserLevel;
 
 @Controller
 public class AdminController {

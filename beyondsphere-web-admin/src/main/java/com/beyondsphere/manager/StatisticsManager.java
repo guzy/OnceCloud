@@ -7,7 +7,7 @@ import java.util.Map;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.beyondsphere.entity.OCStatistics;
+import com.oncecloud.entity.OCStatistics;
 
 public interface StatisticsManager {
 	/**

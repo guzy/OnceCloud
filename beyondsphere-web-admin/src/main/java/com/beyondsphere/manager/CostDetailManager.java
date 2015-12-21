@@ -9,7 +9,7 @@ package com.beyondsphere.manager;
 import java.util.List;
 import java.util.Map;
 
-import com.beyondsphere.entity.CostDetail;
+import com.oncecloud.entity.CostDetail;
 
 public interface CostDetailManager {
 

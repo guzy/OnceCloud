@@ -10,20 +10,20 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.constants.LogConstant;
-import com.beyondsphere.constants.LogEnumConstant;
-import com.beyondsphere.dao.LogDAO;
-import com.beyondsphere.dao.NetworkDAO;
-import com.beyondsphere.dao.RouterDAO;
-import com.beyondsphere.entity.OCLog;
-import com.beyondsphere.entity.OCNetwork;
 import com.beyondsphere.manager.NetworkManager;
 import com.beyondsphere.manager.RouterManager;
-import com.beyondsphere.message.MessagePush;
-import com.beyondsphere.service.NetworkService;
-import com.beyondsphere.service.PoolService;
-import com.beyondsphere.service.VMService;
-import com.beyondsphere.util.Utilities;
+import com.oncecloud.constants.LogConstant;
+import com.oncecloud.constants.LogEnumConstant;
+import com.oncecloud.dao.LogDAO;
+import com.oncecloud.dao.NetworkDAO;
+import com.oncecloud.dao.RouterDAO;
+import com.oncecloud.entity.OCLog;
+import com.oncecloud.entity.OCNetwork;
+import com.oncecloud.message.MessagePush;
+import com.oncecloud.service.NetworkService;
+import com.oncecloud.service.PoolService;
+import com.oncecloud.service.VMService;
+import com.oncecloud.util.Utilities;
 
 @Service("NetworkManager")
 public class NetworkManagerImpl implements NetworkManager {

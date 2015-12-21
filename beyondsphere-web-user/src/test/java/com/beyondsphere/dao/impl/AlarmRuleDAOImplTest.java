@@ -11,9 +11,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.beyondsphere.dao.AlarmRuleDAO;
-import com.beyondsphere.entity.AlarmRule;
-import com.beyondsphere.model.AlarmRuleConstant;
+import com.oncecloud.dao.AlarmRuleDAO;
+import com.oncecloud.entity.AlarmRule;
+import com.oncecloud.model.AlarmRuleConstant;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath*:./com/beyondsphere/config/application-context.xml")

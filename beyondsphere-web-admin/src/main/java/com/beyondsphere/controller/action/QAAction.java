@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.beyondsphere.model.ListModel;
-import com.beyondsphere.entity.User;
 import com.beyondsphere.manager.QAManager;
+import com.oncecloud.entity.User;
+import com.oncecloud.model.ListModel;
 
 @RequestMapping("QAAction")
 @Controller

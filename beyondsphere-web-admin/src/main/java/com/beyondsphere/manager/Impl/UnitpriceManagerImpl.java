@@ -7,9 +7,9 @@ import javax.annotation.Resource;
 import org.json.JSONArray;
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.OCUnitprice;
 import com.beyondsphere.manager.UnitpriceManager;
-import com.beyondsphere.service.UnitpriceService;
+import com.oncecloud.entity.OCUnitprice;
+import com.oncecloud.service.UnitpriceService;
 
 @Service("UnitpriceManager")
 public class UnitpriceManagerImpl implements UnitpriceManager {

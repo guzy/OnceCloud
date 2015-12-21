@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.beyondsphere.entity.User;
-import com.beyondsphere.model.CommonModifyModel;
+import com.oncecloud.entity.User;
+import com.oncecloud.model.CommonModifyModel;
 
 
 @RequestMapping("admin/modal")

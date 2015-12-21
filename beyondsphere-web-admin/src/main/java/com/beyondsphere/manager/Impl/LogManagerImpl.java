@@ -10,8 +10,9 @@ import javax.annotation.Resource;
 
 import org.json.JSONArray;
 import org.springframework.stereotype.Service;
+
 import com.beyondsphere.manager.LogManager;
-import com.beyondsphere.service.LogService;
+import com.oncecloud.service.LogService;
 
 @Service("LogManager")
 public class LogManagerImpl implements LogManager {

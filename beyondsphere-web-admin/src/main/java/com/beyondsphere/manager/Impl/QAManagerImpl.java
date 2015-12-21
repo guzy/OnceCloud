@@ -8,7 +8,7 @@ import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
 import com.beyondsphere.manager.QAManager;
-import com.beyondsphere.service.QAService;
+import com.oncecloud.service.QAService;
 
 @Service("QAManager")
 public class QAManagerImpl implements QAManager{

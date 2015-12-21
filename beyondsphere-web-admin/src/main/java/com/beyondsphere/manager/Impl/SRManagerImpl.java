@@ -15,20 +15,20 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.OCHost;
-import com.beyondsphere.entity.OCLog;
-import com.beyondsphere.entity.Storage;
-import com.beyondsphere.log.LogAction;
-import com.beyondsphere.log.LogObject;
-import com.beyondsphere.log.LogRecord;
-import com.beyondsphere.log.LogRole;
-import com.beyondsphere.message.MessageUtil;
 import com.beyondsphere.manager.SRManager;
-import com.beyondsphere.constants.LogConstant;
-import com.beyondsphere.core.SRCore;
-import com.beyondsphere.service.HostService;
-import com.beyondsphere.service.SRService;
-import com.beyondsphere.util.TimeUtils;
+import com.oncecloud.constants.LogConstant;
+import com.oncecloud.core.SRCore;
+import com.oncecloud.entity.OCHost;
+import com.oncecloud.entity.OCLog;
+import com.oncecloud.entity.Storage;
+import com.oncecloud.log.LogAction;
+import com.oncecloud.log.LogObject;
+import com.oncecloud.log.LogRecord;
+import com.oncecloud.log.LogRole;
+import com.oncecloud.message.MessageUtil;
+import com.oncecloud.service.HostService;
+import com.oncecloud.service.SRService;
+import com.oncecloud.util.TimeUtils;
 
 @Service("SRManager")
 public class SRManagerImpl implements SRManager {

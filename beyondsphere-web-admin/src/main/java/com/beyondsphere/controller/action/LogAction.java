@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.beyondsphere.entity.User;
 import com.beyondsphere.manager.LogManager;
+import com.oncecloud.entity.User;
 
 @RequestMapping("LogAction")
 @Controller

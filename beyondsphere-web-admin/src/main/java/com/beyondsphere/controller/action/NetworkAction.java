@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.beyondsphere.message.MessagePush;
-import com.beyondsphere.model.ListModel;
-import com.beyondsphere.model.SwitchType;
-import com.beyondsphere.util.TimeUtils;
-import com.beyondsphere.entity.OCNetwork;
-import com.beyondsphere.entity.User;
 import com.beyondsphere.manager.NetworkManager;
+import com.oncecloud.entity.OCNetwork;
+import com.oncecloud.entity.User;
+import com.oncecloud.message.MessagePush;
+import com.oncecloud.model.ListModel;
+import com.oncecloud.model.SwitchType;
+import com.oncecloud.util.TimeUtils;
 
 
 @RequestMapping(value = "NetworkAction")

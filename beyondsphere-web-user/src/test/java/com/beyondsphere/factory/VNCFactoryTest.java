@@ -11,8 +11,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.beyondsphere.factory.ServiceFactory;
-import com.beyondsphere.wrapper.VNCServiceWrapper;
+import com.oncecloud.factory.ServiceFactory;
+import com.oncecloud.wrapper.VNCServiceWrapper;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath*:./com/beyondsphere/config/application-context.xml")

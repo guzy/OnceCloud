@@ -8,16 +8,16 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Component;
 
-import com.beyondsphere.dao.HostInformationDAO;
-import com.beyondsphere.dao.NetworkDAO;
-import com.beyondsphere.dao.RouterDAO;
-import com.beyondsphere.dao.UserDAO;
-import com.beyondsphere.entity.HostInformation;
-import com.beyondsphere.entity.OCNetwork;
-import com.beyondsphere.entity.Router;
-import com.beyondsphere.entity.User;
 import com.beyondsphere.manager.HostInformationManager;
-import com.beyondsphere.util.TimeUtils;
+import com.oncecloud.dao.HostInformationDAO;
+import com.oncecloud.dao.NetworkDAO;
+import com.oncecloud.dao.RouterDAO;
+import com.oncecloud.dao.UserDAO;
+import com.oncecloud.entity.HostInformation;
+import com.oncecloud.entity.OCNetwork;
+import com.oncecloud.entity.Router;
+import com.oncecloud.entity.User;
+import com.oncecloud.util.TimeUtils;
 
 @Component("HostInformationManager")
 public class HostInformationManagerImpl implements HostInformationManager {

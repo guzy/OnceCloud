@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.beyondsphere.model.ListModel;
-import com.beyondsphere.entity.OCHa;
-import com.beyondsphere.entity.User;
 import com.beyondsphere.manager.HaManager;
 import com.beyondsphere.manager.PoolManager;
+import com.oncecloud.entity.OCHa;
+import com.oncecloud.entity.User;
+import com.oncecloud.model.ListModel;
 
 @RequestMapping(value="HaAction")
 @Controller

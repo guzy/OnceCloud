@@ -14,10 +14,10 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.beyondsphere.dao.VMDAO;
-import com.beyondsphere.model.VMPlatform;
-import com.beyondsphere.model.VMPower;
-import com.beyondsphere.model.VMStatus;
+import com.oncecloud.dao.VMDAO;
+import com.oncecloud.model.VMPlatform;
+import com.oncecloud.model.VMPower;
+import com.oncecloud.model.VMStatus;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath*:./com/beyondsphere/config/application-context.xml")

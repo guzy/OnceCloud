@@ -32,9 +32,9 @@ import org.springframework.web.servlet.view.RedirectView;
 import com.beyondsphere.manager.AccountManager;
 import com.beyondsphere.manager.AreaManager;
 import com.beyondsphere.manager.UserManager;
-import com.beyondsphere.entity.Area;
-import com.beyondsphere.entity.User;
-import com.beyondsphere.model.LogOnModel;
+import com.oncecloud.entity.Area;
+import com.oncecloud.entity.User;
+import com.oncecloud.model.LogOnModel;
 
 @Controller
 public class AccountController {

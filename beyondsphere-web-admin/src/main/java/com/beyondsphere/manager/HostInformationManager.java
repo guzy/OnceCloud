@@ -3,7 +3,7 @@ package com.beyondsphere.manager;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.beyondsphere.entity.HostInformation;
+import com.oncecloud.entity.HostInformation;
 
 public interface HostInformationManager {
 

@@ -12,15 +12,15 @@ import javax.annotation.Resource;
 import org.json.JSONArray;
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.OCHost;
-import com.beyondsphere.entity.OCPool;
-import com.beyondsphere.entity.PoolRecord;
 import com.beyondsphere.manager.PoolManager;
-import com.beyondsphere.core.PoolCore;
-import com.beyondsphere.message.MessageUtil;
-import com.beyondsphere.service.HostService;
-import com.beyondsphere.service.PoolService;
-import com.beyondsphere.service.VMService;
+import com.oncecloud.core.PoolCore;
+import com.oncecloud.entity.OCHost;
+import com.oncecloud.entity.OCPool;
+import com.oncecloud.entity.PoolRecord;
+import com.oncecloud.message.MessageUtil;
+import com.oncecloud.service.HostService;
+import com.oncecloud.service.PoolService;
+import com.oncecloud.service.VMService;
 
 @Service("poolManager")
 public class PoolManagerImpl implements PoolManager {

@@ -10,14 +10,14 @@ import org.Xen.API.Pool;
 import org.Xen.API.Types;
 import org.springframework.stereotype.Component;
 
-import com.beyondsphere.core.HostCore;
-import com.beyondsphere.core.PoolCore;
-import com.beyondsphere.core.constant.Constant;
-import com.beyondsphere.entity.OCHost;
-import com.beyondsphere.entity.OCPool;
-import com.beyondsphere.service.HostService;
-import com.beyondsphere.service.PoolService;
-import com.beyondsphere.tools.SSH;
+import com.oncecloud.core.HostCore;
+import com.oncecloud.core.PoolCore;
+import com.oncecloud.core.constant.Constant;
+import com.oncecloud.entity.OCHost;
+import com.oncecloud.entity.OCPool;
+import com.oncecloud.service.HostService;
+import com.oncecloud.service.PoolService;
+import com.oncecloud.tools.SSH;
 
 
 @Component("Compensator")

@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.beyondsphere.model.AdminListModel;
-import com.beyondsphere.model.SwitchType;
-import com.beyondsphere.entity.User;
 import com.beyondsphere.manager.VMManager;
+import com.oncecloud.entity.User;
+import com.oncecloud.model.AdminListModel;
+import com.oncecloud.model.SwitchType;
 
 @RequestMapping("VMAction")
 @Controller

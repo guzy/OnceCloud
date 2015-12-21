@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.json.JSONArray;
 
-import com.beyondsphere.entity.OCUnitprice;
+import com.oncecloud.entity.OCUnitprice;
 
 public interface UnitpriceManager {
 	

@@ -21,8 +21,8 @@ import com.beyondsphere.manager.DatacenterManager;
 import com.beyondsphere.manager.StatisticsManager;
 import com.beyondsphere.manager.UserManager;
 import com.beyondsphere.manager.VMManager;
-import com.beyondsphere.util.JsonUtils;
-import com.beyondsphere.util.TimeUtils;
+import com.oncecloud.util.JsonUtils;
+import com.oncecloud.util.TimeUtils;
 
 /**
  * @author zll

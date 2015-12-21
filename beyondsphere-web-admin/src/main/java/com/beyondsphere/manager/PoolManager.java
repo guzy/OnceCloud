@@ -9,7 +9,7 @@ import java.util.List;
 
 import org.json.JSONArray;
 
-import com.beyondsphere.entity.OCPool;
+import com.oncecloud.entity.OCPool;
 
 public interface PoolManager {
 

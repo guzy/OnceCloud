@@ -17,12 +17,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.beyondsphere.model.AuthNode;
-import com.beyondsphere.model.ListModel;
-import com.beyondsphere.model.PagedList;
-import com.beyondsphere.entity.OCRole;
-import com.beyondsphere.entity.User;
 import com.beyondsphere.manager.RoleManager;
+import com.oncecloud.entity.OCRole;
+import com.oncecloud.entity.User;
+import com.oncecloud.model.AuthNode;
+import com.oncecloud.model.ListModel;
+import com.oncecloud.model.PagedList;
 
 @RequestMapping("RoleAction")
 @Controller

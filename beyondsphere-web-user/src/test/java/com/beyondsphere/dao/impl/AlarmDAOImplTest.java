@@ -11,8 +11,8 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.beyondsphere.dao.AlarmDAO;
-import com.beyondsphere.entity.Alarm;
+import com.oncecloud.dao.AlarmDAO;
+import com.oncecloud.entity.Alarm;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)

@@ -5,7 +5,7 @@
  */
 package com.beyondsphere.manager;
 
-import com.beyondsphere.entity.Power;
+import com.oncecloud.entity.Power;
 
 public interface PowerManager {
 

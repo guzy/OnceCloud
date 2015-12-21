@@ -17,13 +17,13 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.Datacenter;
-import com.beyondsphere.entity.OCPool;
 import com.beyondsphere.manager.DatacenterManager;
-import com.beyondsphere.core.HostCore;
-import com.beyondsphere.core.constant.Constant;
-import com.beyondsphere.service.DatacenterService;
-import com.beyondsphere.service.PoolService;
+import com.oncecloud.core.HostCore;
+import com.oncecloud.core.constant.Constant;
+import com.oncecloud.entity.Datacenter;
+import com.oncecloud.entity.OCPool;
+import com.oncecloud.service.DatacenterService;
+import com.oncecloud.service.PoolService;
 
 @Service("dataCenterManager")
 public class DatacenterManagerImpl implements DatacenterManager {

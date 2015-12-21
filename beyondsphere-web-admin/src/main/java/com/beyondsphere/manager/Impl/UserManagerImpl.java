@@ -13,10 +13,10 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.User;
 import com.beyondsphere.manager.UserManager;
-import com.beyondsphere.message.MessageUtil;
-import com.beyondsphere.service.UserService;
+import com.oncecloud.entity.User;
+import com.oncecloud.message.MessageUtil;
+import com.oncecloud.service.UserService;
 
 @Service("UserManager")
 public class UserManagerImpl implements UserManager{

@@ -14,7 +14,7 @@ import org.Xen.API.VM.Record;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.beyondsphere.entity.OCVM;
+import com.oncecloud.entity.OCVM;
 
 
 public interface VMManager {

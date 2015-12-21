@@ -13,9 +13,9 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.CostDetail;
 import com.beyondsphere.manager.CostDetailManager;
-import com.beyondsphere.service.CostDetailService;
+import com.oncecloud.entity.CostDetail;
+import com.oncecloud.service.CostDetailService;
 
 @Service("CostDetailManager")
 public class CostDetailManagerImpl implements CostDetailManager {

@@ -9,11 +9,11 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.Power;
 import com.beyondsphere.manager.PowerManager;
-import com.beyondsphere.core.PowerCore;
-import com.beyondsphere.message.MessageUtil;
-import com.beyondsphere.service.PowerService;
+import com.oncecloud.core.PowerCore;
+import com.oncecloud.entity.Power;
+import com.oncecloud.message.MessageUtil;
+import com.oncecloud.service.PowerService;
 
 @Service("powerManager")
 public class PowerManagerImpl implements PowerManager {

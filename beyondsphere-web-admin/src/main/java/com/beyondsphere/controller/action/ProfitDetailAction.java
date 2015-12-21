@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.beyondsphere.manager.ProfitDetailManager;
-import com.beyondsphere.util.TimeUtils;
+import com.oncecloud.util.TimeUtils;
 
 @RequestMapping("ProfitDetailAction")
 @Controller

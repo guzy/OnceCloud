@@ -12,9 +12,9 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.Volume;
 import com.beyondsphere.manager.VolumeManager;
-import com.beyondsphere.service.VolumeService;
+import com.oncecloud.entity.Volume;
+import com.oncecloud.service.VolumeService;
 
 @Service("VolumeManager")
 public class VolumeManagerImpl implements VolumeManager {

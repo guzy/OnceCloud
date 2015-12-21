@@ -3,7 +3,7 @@ package com.beyondsphere.manager;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.beyondsphere.entity.OCHa;
+import com.oncecloud.entity.OCHa;
 
 public interface HaManager {
 	/**

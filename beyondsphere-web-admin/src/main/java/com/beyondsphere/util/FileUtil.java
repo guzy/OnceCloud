@@ -7,11 +7,11 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
 
-import com.beyondsphere.entity.OCVM;
-import com.beyondsphere.entity.User;
-import com.beyondsphere.model.VMPower;
-import com.beyondsphere.service.UserService;
-import com.beyondsphere.util.TimeUtils;
+import com.oncecloud.entity.OCVM;
+import com.oncecloud.entity.User;
+import com.oncecloud.model.VMPower;
+import com.oncecloud.service.UserService;
+import com.oncecloud.util.TimeUtils;
 
 import jxl.Workbook;
 import jxl.WorkbookSettings;

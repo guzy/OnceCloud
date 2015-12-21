@@ -7,9 +7,11 @@ package com.beyondsphere.manager.Impl;
 
 
 import javax.annotation.Resource;
+
 import org.springframework.stereotype.Service;
+
 import com.beyondsphere.manager.CostStatisticsManager;
-import com.beyondsphere.service.CostStatisticsService;
+import com.oncecloud.service.CostStatisticsService;
 
 @Service("CostStatisticsManager")
 public class CostStatisticsManagerImpl implements CostStatisticsManager {

@@ -7,7 +7,7 @@ package com.beyondsphere.manager;
 
 import org.json.JSONArray;
 
-import com.beyondsphere.entity.Area;
+import com.oncecloud.entity.Area;
 
 public interface AreaManager {
 

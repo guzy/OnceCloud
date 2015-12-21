@@ -6,7 +6,7 @@ import org.json.JSONArray;
 import org.springframework.stereotype.Service;
 
 import com.beyondsphere.manager.MapLocationManager;
-import com.beyondsphere.service.MapLocationService;
+import com.oncecloud.service.MapLocationService;
 @Service("MapLocationManager")
 public class MapLocationManagerImpl implements MapLocationManager {
 	@Resource

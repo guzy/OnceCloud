@@ -10,7 +10,7 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.beyondsphere.entity.OCHost;
+import com.oncecloud.entity.OCHost;
 
 public interface HostManager {
 

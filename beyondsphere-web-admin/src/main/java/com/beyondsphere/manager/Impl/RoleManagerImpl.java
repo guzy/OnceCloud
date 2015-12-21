@@ -12,11 +12,11 @@ import javax.annotation.Resource;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.OCRole;
 import com.beyondsphere.manager.RoleManager;
-import com.beyondsphere.model.AuthNode;
-import com.beyondsphere.model.PagedList;
-import com.beyondsphere.service.RoleService;
+import com.oncecloud.entity.OCRole;
+import com.oncecloud.model.AuthNode;
+import com.oncecloud.model.PagedList;
+import com.oncecloud.service.RoleService;
 
 @Service("RoleManager")
 public class RoleManagerImpl implements RoleManager{

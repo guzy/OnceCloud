@@ -14,7 +14,7 @@ import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
 import com.beyondsphere.manager.ProfitDetailManager;
-import com.beyondsphere.service.ProfitDetailService;
+import com.oncecloud.service.ProfitDetailService;
 
 @Service("ProfitDetailManager")
 public class ProfitDetailManagerImpl implements ProfitDetailManager {

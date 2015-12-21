@@ -16,29 +16,29 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Component;
 
-import com.beyondsphere.constants.SystemConstant;
-import com.beyondsphere.core.HostCore;
-import com.beyondsphere.core.PoolCore;
-import com.beyondsphere.entity.OCHost;
-import com.beyondsphere.entity.OCLog;
-import com.beyondsphere.entity.OCPool;
-import com.beyondsphere.entity.Storage;
-import com.beyondsphere.log.LogAction;
-import com.beyondsphere.log.LogObject;
-import com.beyondsphere.log.LogRecord;
-import com.beyondsphere.log.LogRole;
 import com.beyondsphere.manager.HostManager;
-import com.beyondsphere.message.MessageUtil;
-import com.beyondsphere.service.HostService;
-import com.beyondsphere.service.ImageService;
-import com.beyondsphere.service.PoolService;
-import com.beyondsphere.service.SRService;
-import com.beyondsphere.service.VMService;
-import com.beyondsphere.tools.SSH;
-import com.beyondsphere.util.TimeUtils;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
+import com.oncecloud.constants.SystemConstant;
+import com.oncecloud.core.HostCore;
+import com.oncecloud.core.PoolCore;
+import com.oncecloud.entity.OCHost;
+import com.oncecloud.entity.OCLog;
+import com.oncecloud.entity.OCPool;
+import com.oncecloud.entity.Storage;
+import com.oncecloud.log.LogAction;
+import com.oncecloud.log.LogObject;
+import com.oncecloud.log.LogRecord;
+import com.oncecloud.log.LogRole;
+import com.oncecloud.message.MessageUtil;
+import com.oncecloud.service.HostService;
+import com.oncecloud.service.ImageService;
+import com.oncecloud.service.PoolService;
+import com.oncecloud.service.SRService;
+import com.oncecloud.service.VMService;
+import com.oncecloud.tools.SSH;
+import com.oncecloud.util.TimeUtils;
 
 @Component("HostManager")
 public class HostManagerImpl implements HostManager {

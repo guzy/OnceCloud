@@ -8,20 +8,20 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
 
-import com.beyondsphere.entity.OCHost;
 import com.beyondsphere.manager.PerformanceVSphereManger;
-import com.beyondsphere.model.performance.Cpu1d;
-import com.beyondsphere.model.performance.Cpu1m;
-import com.beyondsphere.model.performance.Cpu2w;
-import com.beyondsphere.model.performance.Cpu30min;
-import com.beyondsphere.model.performance.Cpu6h;
-import com.beyondsphere.model.performance.Memory1d;
-import com.beyondsphere.model.performance.Memory1m;
-import com.beyondsphere.model.performance.Memory2w;
-import com.beyondsphere.model.performance.Memory30min;
-import com.beyondsphere.model.performance.Memory6h;
-import com.beyondsphere.service.PerformanceVSphereService;
 import com.beyondsphere.vsphere.VMWareUtil;
+import com.oncecloud.entity.OCHost;
+import com.oncecloud.model.performance.Cpu1d;
+import com.oncecloud.model.performance.Cpu1m;
+import com.oncecloud.model.performance.Cpu2w;
+import com.oncecloud.model.performance.Cpu30min;
+import com.oncecloud.model.performance.Cpu6h;
+import com.oncecloud.model.performance.Memory1d;
+import com.oncecloud.model.performance.Memory1m;
+import com.oncecloud.model.performance.Memory2w;
+import com.oncecloud.model.performance.Memory30min;
+import com.oncecloud.model.performance.Memory6h;
+import com.oncecloud.service.PerformanceVSphereService;
 
 @Component("PerformanceVSphereManger")
 public class PerformanceVSphereMangerImpl implements PerformanceVSphereManger {

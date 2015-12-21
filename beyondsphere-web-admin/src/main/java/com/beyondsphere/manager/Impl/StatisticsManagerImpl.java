@@ -10,9 +10,9 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Component;
 
-import com.beyondsphere.entity.OCStatistics;
 import com.beyondsphere.manager.StatisticsManager;
-import com.beyondsphere.service.StatisticsService;
+import com.oncecloud.entity.OCStatistics;
+import com.oncecloud.service.StatisticsService;
 
 @Component("StatisticsManager")
 public class StatisticsManagerImpl implements StatisticsManager {

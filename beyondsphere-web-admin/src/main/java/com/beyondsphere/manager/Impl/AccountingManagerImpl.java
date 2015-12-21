@@ -6,7 +6,7 @@ import org.json.JSONArray;
 import org.springframework.stereotype.Service;
 
 import com.beyondsphere.manager.AccountingManager;
-import com.beyondsphere.service.AccountingService;
+import com.oncecloud.service.AccountingService;
 @Service("AccountingManager")
 public class AccountingManagerImpl implements AccountingManager {
 	@Resource

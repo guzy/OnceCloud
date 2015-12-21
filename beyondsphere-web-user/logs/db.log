@@ -1,264 +1,264 @@
-2015-12-21 18:26:19.967 INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet 'dispatcherServlet': initialization started
-2015-12-21 18:26:19.995 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Dec 21 18:26:19 CST 2015]; root of context hierarchy
-2015-12-21 18:26:20.034 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:/F:/workspace_gzy/iscas-project/201512_Reconstruction/latest_web_console/beyondsphere/beyondsphere-web-user/target/classes/com/beyondsphere/config/application-context.xml]
-2015-12-21 18:26:21.604 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcContentNegotiationManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]]
-2015-12-21 18:26:21.608 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'mvcResourceUrlProvider': replacing [Root bean: class [org.springframework.web.servlet.resource.ResourceUrlProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcResourceUrlProvider; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]]
-2015-12-21 18:26:21.610 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'mvcPathMatcher': replacing [Root bean: class [org.springframework.util.AntPathMatcher]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcPathMatcher; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]]
-2015-12-21 18:26:21.610 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'mvcUrlPathHelper': replacing [Root bean: class [org.springframework.web.util.UrlPathHelper]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcUrlPathHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]]
-2015-12-21 18:26:21.611 INFO  [org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader] Skipping bean definition for [BeanMethod:name=mvcUriComponentsContributor,declaringClass=org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport]: a definition for bean 'mvcUriComponentsContributor' already exists. This top-level bean definition is considered as an override.
-2015-12-21 18:26:21.612 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'handshakeHandler': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=messageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.MessageConfig] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=upDockerMessageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.UpDockerMessageConfig]
-2015-12-21 18:26:21.613 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'handshakeHandler': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=upDockerMessageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.UpDockerMessageConfig] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=upISOMessageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.UpISOMessageConfig]
-2015-12-21 18:26:21.616 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'handshakeHandler': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=upISOMessageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.UpISOMessageConfig] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=upXenMessageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.UpXenMessageConfig]
-2015-12-21 18:26:21.854 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2015-12-21 18:26:22.362 INFO  [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
-2015-12-21 18:26:22.371 INFO  [org.hibernate.Version] HHH000412: Hibernate Core {4.3.6.Final}
-2015-12-21 18:26:22.379 INFO  [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
-2015-12-21 18:26:22.381 INFO  [org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
-2015-12-21 18:26:22.404 INFO  [org.hibernate.cfg.Configuration] HHH000043: Configuring from resource: com/beyondsphere/config/hibernate-main.cfg.xml
-2015-12-21 18:26:22.405 INFO  [org.hibernate.cfg.Configuration] HHH000040: Configuration resource: com/beyondsphere/config/hibernate-main.cfg.xml
-2015-12-21 18:26:22.479 INFO  [org.hibernate.cfg.Configuration] HHH000041: Configured SessionFactory: null
-2015-12-21 18:26:22.569 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
-2015-12-21 18:26:22.582 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://133.133.135.9:3306/beyondsphere
-2015-12-21 18:26:22.583 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000046: Connection properties: {user=root, password=****, characterEncoding=UTF-8}
-2015-12-21 18:26:22.584 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000006: Autocommit mode: false
-2015-12-21 18:26:22.591 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
-2015-12-21 18:26:22.593 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
-2015-12-21 18:26:22.604 INFO  [com.mchange.v2.log.MLog] MLog clients using log4j logging.
-2015-12-21 18:26:23.275 INFO  [com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
-2015-12-21 18:26:23.384 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@5ecd4fee [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e2ba4ad0 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60bhz9d1iejmlojng66o|4cb82b09, idleConnectionTestPeriod -> 120, initialPoolSize -> 6, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 6, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@7df61f0b [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1iejmlojng66o|5906ebfb, jdbcUrl -> jdbc:mysql://133.133.135.9:3306/beyondsphere, properties -> {user=******, password=******, characterEncoding=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1iejmlojng66o|5e3cb58e, numHelperThreads -> 3 ]
-2015-12-21 18:26:23.771 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
-2015-12-21 18:26:23.794 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2015-12-21 18:26:24.205 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions)
-2015-12-21 18:26:24.216 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
-2015-12-21 18:26:24.956 INFO  [org.hibernate.cfg.Configuration] HHH000043: Configuring from resource: com/beyondsphere/config/hibernate-performance.cfg.xml
-2015-12-21 18:26:24.957 INFO  [org.hibernate.cfg.Configuration] HHH000040: Configuration resource: com/beyondsphere/config/hibernate-performance.cfg.xml
-2015-12-21 18:26:24.973 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/cpu.hbm.xml
-2015-12-21 18:26:25.010 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.046 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/mem.hbm.xml
-2015-12-21 18:26:25.050 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.058 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/pif.hbm.xml
-2015-12-21 18:26:25.066 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.108 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vbd.hbm.xml
-2015-12-21 18:26:25.112 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.123 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vif.hbm.xml
-2015-12-21 18:26:25.126 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.142 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/cpu6h.hbm.xml
-2015-12-21 18:26:25.151 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.159 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/cpu1d.hbm.xml
-2015-12-21 18:26:25.166 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.180 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/cpu2w.hbm.xml
-2015-12-21 18:26:25.187 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.195 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/cpu1m.hbm.xml
-2015-12-21 18:26:25.217 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.224 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/mem6h.hbm.xml
-2015-12-21 18:26:25.229 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.237 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/mem1d.hbm.xml
-2015-12-21 18:26:25.242 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.250 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/mem2w.hbm.xml
-2015-12-21 18:26:25.273 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.287 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/mem1m.hbm.xml
-2015-12-21 18:26:25.305 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.321 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vbd6h.hbm.xml
-2015-12-21 18:26:25.338 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.346 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vbd1d.hbm.xml
-2015-12-21 18:26:25.360 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.387 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vbd2w.hbm.xml
-2015-12-21 18:26:25.398 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.416 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vbd1m.hbm.xml
-2015-12-21 18:26:25.423 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.446 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vif6h.hbm.xml
-2015-12-21 18:26:25.458 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.464 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vif1d.hbm.xml
-2015-12-21 18:26:25.470 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.480 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vif2w.hbm.xml
-2015-12-21 18:26:25.486 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.491 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vif1m.hbm.xml
-2015-12-21 18:26:25.502 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.511 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/pif6h.hbm.xml
-2015-12-21 18:26:25.532 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.539 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/pif1d.hbm.xml
-2015-12-21 18:26:25.574 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.591 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/pif2w.hbm.xml
-2015-12-21 18:26:25.597 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.604 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/pif1m.hbm.xml
-2015-12-21 18:26:25.616 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-2015-12-21 18:26:25.628 INFO  [org.hibernate.cfg.Configuration] HHH000041: Configured SessionFactory: null
-2015-12-21 18:26:25.645 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
-2015-12-21 18:26:25.654 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://133.133.135.9:3306/bsperformance
-2015-12-21 18:26:25.655 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000046: Connection properties: {user=root, password=****, characterEncoding=utf-8}
-2015-12-21 18:26:25.655 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000006: Autocommit mode: false
-2015-12-21 18:26:25.656 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
-2015-12-21 18:26:25.668 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
-2015-12-21 18:26:25.800 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@26311183 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@d1223392 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60bhz9d1iejmlojng66o|30d5fc1b, idleConnectionTestPeriod -> 120, initialPoolSize -> 6, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 6, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@b08fc459 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1iejmlojng66o|2484c868, jdbcUrl -> jdbc:mysql://133.133.135.9:3306/bsperformance, properties -> {user=******, password=******, characterEncoding=utf-8} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1iejmlojng66o|7b92ea9d, numHelperThreads -> 3 ]
-2015-12-21 18:26:25.849 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
-2015-12-21 18:26:25.850 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2015-12-21 18:26:25.889 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vif2w
-2015-12-21 18:26:25.889 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vif2w
-2015-12-21 18:26:25.892 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vbd1m
-2015-12-21 18:26:25.893 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vbd1m
-2015-12-21 18:26:25.896 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Memory1m
-2015-12-21 18:26:25.896 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Memory1m
-2015-12-21 18:26:25.898 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Cpu1m
-2015-12-21 18:26:25.899 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Cpu1m
-2015-12-21 18:26:25.901 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Cpu30min
-2015-12-21 18:26:25.901 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Cpu30min
-2015-12-21 18:26:25.904 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Pif2w
-2015-12-21 18:26:25.905 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Pif2w
-2015-12-21 18:26:25.906 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vif6h
-2015-12-21 18:26:25.906 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vif6h
-2015-12-21 18:26:25.907 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vbd1d
-2015-12-21 18:26:25.908 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vbd1d
-2015-12-21 18:26:25.910 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Cpu6h
-2015-12-21 18:26:25.911 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Cpu6h
-2015-12-21 18:26:25.913 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Memory6h
-2015-12-21 18:26:25.913 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Memory6h
-2015-12-21 18:26:25.914 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Pif1d
-2015-12-21 18:26:25.915 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Pif1d
-2015-12-21 18:26:25.915 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Memory2w
-2015-12-21 18:26:25.916 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Memory2w
-2015-12-21 18:26:25.917 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Cpu2w
-2015-12-21 18:26:25.918 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Cpu2w
-2015-12-21 18:26:25.919 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Pif1m
-2015-12-21 18:26:25.919 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Pif1m
-2015-12-21 18:26:25.921 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Pif30min
-2015-12-21 18:26:25.921 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Pif30min
-2015-12-21 18:26:25.922 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vbd2w
-2015-12-21 18:26:25.923 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vbd2w
-2015-12-21 18:26:25.923 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Memory1d
-2015-12-21 18:26:25.925 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Memory1d
-2015-12-21 18:26:25.928 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vbd6h
-2015-12-21 18:26:25.929 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vbd6h
-2015-12-21 18:26:25.930 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Memory30min
-2015-12-21 18:26:25.931 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Memory30min
-2015-12-21 18:26:25.932 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vif30min
-2015-12-21 18:26:25.932 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vif30min
-2015-12-21 18:26:25.934 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vif1d
-2015-12-21 18:26:25.935 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vif1d
-2015-12-21 18:26:25.936 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vbd30min
-2015-12-21 18:26:25.937 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vbd30min
-2015-12-21 18:26:25.937 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Cpu1d
-2015-12-21 18:26:25.938 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Cpu1d
-2015-12-21 18:26:25.938 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Pif6h
-2015-12-21 18:26:25.939 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Pif6h
-2015-12-21 18:26:25.939 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vif1m
-2015-12-21 18:26:25.940 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vif1m
-2015-12-21 18:26:25.946 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions)
-2015-12-21 18:26:25.947 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
-2015-12-21 18:26:26.063 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] HHH000228: Running hbm2ddl schema update
-2015-12-21 18:26:26.064 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] HHH000102: Fetching database metadata
-2015-12-21 18:26:26.071 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] HHH000396: Updating schema
-2015-12-21 18:26:26.097 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.cpu_1d
-2015-12-21 18:26:26.097 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [cpu_id, t, usage, id]
-2015-12-21 18:26:26.098 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.098 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.107 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.cpu_1m
-2015-12-21 18:26:26.108 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [cpu_id, t, usage, id]
-2015-12-21 18:26:26.109 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.110 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.118 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.cpu_2w
-2015-12-21 18:26:26.119 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [cpu_id, t, usage, id]
-2015-12-21 18:26:26.119 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.119 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.128 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.cpu_30min
-2015-12-21 18:26:26.128 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [cpu_id, t, usage, id]
-2015-12-21 18:26:26.129 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.129 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.136 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.cpu_6h
-2015-12-21 18:26:26.137 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [cpu_id, t, usage, id]
-2015-12-21 18:26:26.137 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.137 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.145 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.mem_1d
-2015-12-21 18:26:26.146 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [total, t, id, free]
-2015-12-21 18:26:26.146 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.147 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.153 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.mem_1m
-2015-12-21 18:26:26.153 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [total, t, id, free]
-2015-12-21 18:26:26.154 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.154 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.161 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.mem_2w
-2015-12-21 18:26:26.162 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [total, t, id, free]
-2015-12-21 18:26:26.162 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.163 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.169 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.mem_30min
-2015-12-21 18:26:26.170 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [total, t, id, free]
-2015-12-21 18:26:26.170 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.170 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.178 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.mem_6h
-2015-12-21 18:26:26.179 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [total, t, id, free]
-2015-12-21 18:26:26.179 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.179 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.186 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.pif_1d
-2015-12-21 18:26:26.186 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, id, pif_id, rxd]
-2015-12-21 18:26:26.187 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.187 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.194 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.pif_1m
-2015-12-21 18:26:26.195 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, id, pif_id, rxd]
-2015-12-21 18:26:26.195 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.196 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.202 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.pif_2w
-2015-12-21 18:26:26.203 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, id, pif_id, rxd]
-2015-12-21 18:26:26.203 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.203 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.211 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.pif_30min
-2015-12-21 18:26:26.212 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, id, pif_id, rxd]
-2015-12-21 18:26:26.212 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.213 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.220 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.pif_6h
-2015-12-21 18:26:26.220 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, id, pif_id, rxd]
-2015-12-21 18:26:26.221 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.221 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.229 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vbd_1d
-2015-12-21 18:26:26.230 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [read, t, id, vbd_id, write]
-2015-12-21 18:26:26.230 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.230 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.238 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vbd_1m
-2015-12-21 18:26:26.239 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [read, t, id, vbd_id, write]
-2015-12-21 18:26:26.239 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.239 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.248 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vbd_2w
-2015-12-21 18:26:26.249 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [read, t, id, vbd_id, write]
-2015-12-21 18:26:26.250 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.250 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.258 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vbd_30min
-2015-12-21 18:26:26.259 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [read, t, id, vbd_id, write]
-2015-12-21 18:26:26.260 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.260 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.267 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vbd_6h
-2015-12-21 18:26:26.268 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [read, t, id, vbd_id, write]
-2015-12-21 18:26:26.269 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.269 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.277 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vif_1d
-2015-12-21 18:26:26.278 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, vif_id, id, rxd]
-2015-12-21 18:26:26.279 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.279 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.286 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vif_1m
-2015-12-21 18:26:26.286 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, vif_id, id, rxd]
-2015-12-21 18:26:26.286 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.287 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.294 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vif_2w
-2015-12-21 18:26:26.295 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, vif_id, id, rxd]
-2015-12-21 18:26:26.295 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.295 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.302 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vif_30min
-2015-12-21 18:26:26.302 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, vif_id, id, rxd]
-2015-12-21 18:26:26.303 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.303 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.311 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vif_6h
-2015-12-21 18:26:26.312 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, vif_id, id, rxd]
-2015-12-21 18:26:26.312 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
-2015-12-21 18:26:26.312 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
-2015-12-21 18:26:26.313 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] HHH000232: Schema update complete
-2015-12-21 18:26:26.316 INFO  [org.hibernate.cfg.Configuration] HHH000043: Configuring from resource: com/beyondsphere/config/hibernate-platform.cfg.xml
-2015-12-21 18:26:26.317 INFO  [org.hibernate.cfg.Configuration] HHH000040: Configuration resource: com/beyondsphere/config/hibernate-platform.cfg.xml
-2015-12-21 18:26:26.322 INFO  [org.hibernate.cfg.Configuration] HHH000041: Configured SessionFactory: null
-2015-12-21 18:26:26.329 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
-2015-12-21 18:26:26.330 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://133.133.135.9:3306/platform_test
-2015-12-21 18:26:26.330 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000046: Connection properties: {user=root, password=****, characterEncoding=UTF-8}
-2015-12-21 18:26:26.332 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000006: Autocommit mode: false
-2015-12-21 18:26:26.332 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
-2015-12-21 18:26:26.333 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
-2015-12-21 18:26:26.413 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@4b9ee1a5 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@333effe4 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60bhz9d1iejmlojng66o|33bf2602, idleConnectionTestPeriod -> 120, initialPoolSize -> 6, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 6, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@22e3440d [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1iejmlojng66o|59db8216, jdbcUrl -> jdbc:mysql://133.133.135.9:3306/platform_test, properties -> {user=******, password=******, characterEncoding=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1iejmlojng66o|426a4301, numHelperThreads -> 3 ]
-2015-12-21 18:26:26.447 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
-2015-12-21 18:26:26.449 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-2015-12-21 18:26:26.464 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions)
-2015-12-21 18:26:26.464 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+2015-12-21 20:40:28.569 INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet 'dispatcherServlet': initialization started
+2015-12-21 20:40:28.589 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Mon Dec 21 20:40:28 CST 2015]; root of context hierarchy
+2015-12-21 20:40:28.614 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:/F:/workspace_gzy/iscas-project/OnceCloud_reconstruction@2015/beyondsphere-web-user/target/classes/com/beyondsphere/config/application-context.xml]
+2015-12-21 20:40:29.283 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'mvcContentNegotiationManager': replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcContentNegotiationManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]]
+2015-12-21 20:40:29.284 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'mvcResourceUrlProvider': replacing [Root bean: class [org.springframework.web.servlet.resource.ResourceUrlProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcResourceUrlProvider; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]]
+2015-12-21 20:40:29.285 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'mvcPathMatcher': replacing [Root bean: class [org.springframework.util.AntPathMatcher]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcPathMatcher; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]]
+2015-12-21 20:40:29.286 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'mvcUrlPathHelper': replacing [Root bean: class [org.springframework.web.util.UrlPathHelper]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=mvcUrlPathHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]]
+2015-12-21 20:40:29.287 INFO  [org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader] Skipping bean definition for [BeanMethod:name=mvcUriComponentsContributor,declaringClass=org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport]: a definition for bean 'mvcUriComponentsContributor' already exists. This top-level bean definition is considered as an override.
+2015-12-21 20:40:29.288 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'handshakeHandler': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=messageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.MessageConfig] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=upDockerMessageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.UpDockerMessageConfig]
+2015-12-21 20:40:29.289 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'handshakeHandler': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=upDockerMessageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.UpDockerMessageConfig] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=upISOMessageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.UpISOMessageConfig]
+2015-12-21 20:40:29.289 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] Overriding bean definition for bean 'handshakeHandler': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=upISOMessageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.UpISOMessageConfig] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=upXenMessageConfig; factoryMethodName=handshakeHandler; initMethodName=null; destroyMethodName=(inferred); defined in com.beyondsphere.message.UpXenMessageConfig]
+2015-12-21 20:40:29.402 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-12-21 20:40:29.629 INFO  [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-12-21 20:40:29.635 INFO  [org.hibernate.Version] HHH000412: Hibernate Core {4.3.6.Final}
+2015-12-21 20:40:29.637 INFO  [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2015-12-21 20:40:29.639 INFO  [org.hibernate.cfg.Environment] HHH000021: Bytecode provider name : javassist
+2015-12-21 20:40:29.654 INFO  [org.hibernate.cfg.Configuration] HHH000043: Configuring from resource: com/beyondsphere/config/hibernate-main.cfg.xml
+2015-12-21 20:40:29.655 INFO  [org.hibernate.cfg.Configuration] HHH000040: Configuration resource: com/beyondsphere/config/hibernate-main.cfg.xml
+2015-12-21 20:40:29.705 INFO  [org.hibernate.cfg.Configuration] HHH000041: Configured SessionFactory: null
+2015-12-21 20:40:29.777 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2015-12-21 20:40:29.787 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://133.133.135.9:3306/beyondsphere
+2015-12-21 20:40:29.788 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000046: Connection properties: {user=root, password=****, characterEncoding=UTF-8}
+2015-12-21 20:40:29.788 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000006: Autocommit mode: false
+2015-12-21 20:40:29.794 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2015-12-21 20:40:29.795 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2015-12-21 20:40:29.805 INFO  [com.mchange.v2.log.MLog] MLog clients using log4j logging.
+2015-12-21 20:40:30.356 INFO  [com.mchange.v2.c3p0.C3P0Registry] Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2015-12-21 20:40:30.430 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@3644032c [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@ba30fe0e [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60bhz9d1ijc3uu1jsavjr|4cb82b09, idleConnectionTestPeriod -> 120, initialPoolSize -> 6, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 6, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@556cd249 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1ijc3uu1jsavjr|5906ebfb, jdbcUrl -> jdbc:mysql://133.133.135.9:3306/beyondsphere, properties -> {user=******, password=******, characterEncoding=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1ijc3uu1jsavjr|5e3cb58e, numHelperThreads -> 3 ]
+2015-12-21 20:40:30.906 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2015-12-21 20:40:30.914 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-12-21 20:40:31.077 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-12-21 20:40:31.081 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+2015-12-21 20:40:31.430 INFO  [org.hibernate.cfg.Configuration] HHH000043: Configuring from resource: com/beyondsphere/config/hibernate-performance.cfg.xml
+2015-12-21 20:40:31.431 INFO  [org.hibernate.cfg.Configuration] HHH000040: Configuration resource: com/beyondsphere/config/hibernate-performance.cfg.xml
+2015-12-21 20:40:31.435 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/cpu.hbm.xml
+2015-12-21 20:40:31.444 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.455 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/mem.hbm.xml
+2015-12-21 20:40:31.458 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.465 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/pif.hbm.xml
+2015-12-21 20:40:31.468 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.473 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vbd.hbm.xml
+2015-12-21 20:40:31.476 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.482 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vif.hbm.xml
+2015-12-21 20:40:31.485 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.490 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/cpu6h.hbm.xml
+2015-12-21 20:40:31.494 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.499 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/cpu1d.hbm.xml
+2015-12-21 20:40:31.502 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.506 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/cpu2w.hbm.xml
+2015-12-21 20:40:31.509 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.513 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/cpu1m.hbm.xml
+2015-12-21 20:40:31.516 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.521 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/mem6h.hbm.xml
+2015-12-21 20:40:31.524 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.528 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/mem1d.hbm.xml
+2015-12-21 20:40:31.532 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.539 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/mem2w.hbm.xml
+2015-12-21 20:40:31.542 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.547 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/mem1m.hbm.xml
+2015-12-21 20:40:31.551 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.556 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vbd6h.hbm.xml
+2015-12-21 20:40:31.565 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.570 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vbd1d.hbm.xml
+2015-12-21 20:40:31.573 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.579 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vbd2w.hbm.xml
+2015-12-21 20:40:31.582 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.586 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vbd1m.hbm.xml
+2015-12-21 20:40:31.589 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.593 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vif6h.hbm.xml
+2015-12-21 20:40:31.596 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.601 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vif1d.hbm.xml
+2015-12-21 20:40:31.604 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.609 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vif2w.hbm.xml
+2015-12-21 20:40:31.612 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.616 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/vif1m.hbm.xml
+2015-12-21 20:40:31.619 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.624 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/pif6h.hbm.xml
+2015-12-21 20:40:31.627 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.631 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/pif1d.hbm.xml
+2015-12-21 20:40:31.634 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.639 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/pif2w.hbm.xml
+2015-12-21 20:40:31.650 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.659 INFO  [org.hibernate.cfg.Configuration] HHH000221: Reading mappings from resource: com/beyondsphere/config/performance/pif1m.hbm.xml
+2015-12-21 20:40:31.662 WARN  [org.hibernate.internal.util.xml.DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2015-12-21 20:40:31.669 INFO  [org.hibernate.cfg.Configuration] HHH000041: Configured SessionFactory: null
+2015-12-21 20:40:31.672 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2015-12-21 20:40:31.673 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://133.133.135.9:3306/bsperformance
+2015-12-21 20:40:31.674 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000046: Connection properties: {user=root, password=****, characterEncoding=utf-8}
+2015-12-21 20:40:31.674 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000006: Autocommit mode: false
+2015-12-21 20:40:31.675 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2015-12-21 20:40:31.675 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2015-12-21 20:40:31.719 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@fda7c4c1 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@a898e6d0 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60bhz9d1ijc3uu1jsavjr|30d5fc1b, idleConnectionTestPeriod -> 120, initialPoolSize -> 6, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 6, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@88067797 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1ijc3uu1jsavjr|2484c868, jdbcUrl -> jdbc:mysql://133.133.135.9:3306/bsperformance, properties -> {user=******, password=******, characterEncoding=utf-8} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1ijc3uu1jsavjr|7b92ea9d, numHelperThreads -> 3 ]
+2015-12-21 20:40:31.736 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2015-12-21 20:40:31.737 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-12-21 20:40:31.770 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vif2w
+2015-12-21 20:40:31.770 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vif2w
+2015-12-21 20:40:31.772 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vbd1m
+2015-12-21 20:40:31.773 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vbd1m
+2015-12-21 20:40:31.779 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Memory1m
+2015-12-21 20:40:31.780 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Memory1m
+2015-12-21 20:40:31.781 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Cpu1m
+2015-12-21 20:40:31.781 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Cpu1m
+2015-12-21 20:40:31.783 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Cpu30min
+2015-12-21 20:40:31.783 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Cpu30min
+2015-12-21 20:40:31.784 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Pif2w
+2015-12-21 20:40:31.785 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Pif2w
+2015-12-21 20:40:31.786 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vif6h
+2015-12-21 20:40:31.786 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vif6h
+2015-12-21 20:40:31.787 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vbd1d
+2015-12-21 20:40:31.787 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vbd1d
+2015-12-21 20:40:31.788 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Cpu6h
+2015-12-21 20:40:31.788 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Cpu6h
+2015-12-21 20:40:31.789 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Memory6h
+2015-12-21 20:40:31.790 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Memory6h
+2015-12-21 20:40:31.791 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Pif1d
+2015-12-21 20:40:31.791 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Pif1d
+2015-12-21 20:40:31.792 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Memory2w
+2015-12-21 20:40:31.793 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Memory2w
+2015-12-21 20:40:31.794 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Cpu2w
+2015-12-21 20:40:31.794 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Cpu2w
+2015-12-21 20:40:31.795 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Pif1m
+2015-12-21 20:40:31.796 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Pif1m
+2015-12-21 20:40:31.796 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Pif30min
+2015-12-21 20:40:31.797 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Pif30min
+2015-12-21 20:40:31.798 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vbd2w
+2015-12-21 20:40:31.798 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vbd2w
+2015-12-21 20:40:31.799 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Memory1d
+2015-12-21 20:40:31.799 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Memory1d
+2015-12-21 20:40:31.800 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vbd6h
+2015-12-21 20:40:31.800 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vbd6h
+2015-12-21 20:40:31.801 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Memory30min
+2015-12-21 20:40:31.801 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Memory30min
+2015-12-21 20:40:31.802 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vif30min
+2015-12-21 20:40:31.802 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vif30min
+2015-12-21 20:40:31.803 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vif1d
+2015-12-21 20:40:31.803 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vif1d
+2015-12-21 20:40:31.804 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vbd30min
+2015-12-21 20:40:31.805 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vbd30min
+2015-12-21 20:40:31.805 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Cpu1d
+2015-12-21 20:40:31.805 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Cpu1d
+2015-12-21 20:40:31.807 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Pif6h
+2015-12-21 20:40:31.807 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Pif6h
+2015-12-21 20:40:31.808 WARN  [org.hibernate.mapping.RootClass] HHH000038: Composite-id class does not override equals(): com.beyondsphere.entity.performance.Vif1m
+2015-12-21 20:40:31.808 WARN  [org.hibernate.mapping.RootClass] HHH000039: Composite-id class does not override hashCode(): com.beyondsphere.entity.performance.Vif1m
+2015-12-21 20:40:31.811 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-12-21 20:40:31.812 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory
+2015-12-21 20:40:31.865 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] HHH000228: Running hbm2ddl schema update
+2015-12-21 20:40:31.866 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] HHH000102: Fetching database metadata
+2015-12-21 20:40:31.872 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] HHH000396: Updating schema
+2015-12-21 20:40:31.894 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.cpu_1d
+2015-12-21 20:40:31.894 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [cpu_id, t, usage, id]
+2015-12-21 20:40:31.895 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.895 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.902 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.cpu_1m
+2015-12-21 20:40:31.902 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [cpu_id, t, usage, id]
+2015-12-21 20:40:31.902 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.903 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.909 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.cpu_2w
+2015-12-21 20:40:31.910 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [cpu_id, t, usage, id]
+2015-12-21 20:40:31.910 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.911 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.917 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.cpu_30min
+2015-12-21 20:40:31.918 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [cpu_id, t, usage, id]
+2015-12-21 20:40:31.918 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.918 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.925 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.cpu_6h
+2015-12-21 20:40:31.926 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [cpu_id, t, usage, id]
+2015-12-21 20:40:31.926 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.926 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.932 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.mem_1d
+2015-12-21 20:40:31.933 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [total, t, id, free]
+2015-12-21 20:40:31.933 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.933 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.940 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.mem_1m
+2015-12-21 20:40:31.940 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [total, t, id, free]
+2015-12-21 20:40:31.941 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.941 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.946 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.mem_2w
+2015-12-21 20:40:31.947 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [total, t, id, free]
+2015-12-21 20:40:31.947 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.947 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.953 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.mem_30min
+2015-12-21 20:40:31.953 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [total, t, id, free]
+2015-12-21 20:40:31.953 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.954 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.959 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.mem_6h
+2015-12-21 20:40:31.960 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [total, t, id, free]
+2015-12-21 20:40:31.960 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.960 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.966 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.pif_1d
+2015-12-21 20:40:31.966 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, id, pif_id, rxd]
+2015-12-21 20:40:31.966 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.967 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.973 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.pif_1m
+2015-12-21 20:40:31.973 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, id, pif_id, rxd]
+2015-12-21 20:40:31.974 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.974 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.980 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.pif_2w
+2015-12-21 20:40:31.980 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, id, pif_id, rxd]
+2015-12-21 20:40:31.980 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.981 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.992 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.pif_30min
+2015-12-21 20:40:31.992 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, id, pif_id, rxd]
+2015-12-21 20:40:31.992 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:31.993 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:31.998 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.pif_6h
+2015-12-21 20:40:31.999 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, id, pif_id, rxd]
+2015-12-21 20:40:32.000 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.000 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.008 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vbd_1d
+2015-12-21 20:40:32.008 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [read, t, id, vbd_id, write]
+2015-12-21 20:40:32.008 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.009 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.016 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vbd_1m
+2015-12-21 20:40:32.017 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [read, t, id, vbd_id, write]
+2015-12-21 20:40:32.017 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.018 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.025 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vbd_2w
+2015-12-21 20:40:32.025 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [read, t, id, vbd_id, write]
+2015-12-21 20:40:32.025 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.026 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.032 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vbd_30min
+2015-12-21 20:40:32.032 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [read, t, id, vbd_id, write]
+2015-12-21 20:40:32.033 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.033 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.039 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vbd_6h
+2015-12-21 20:40:32.040 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [read, t, id, vbd_id, write]
+2015-12-21 20:40:32.040 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.040 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.047 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vif_1d
+2015-12-21 20:40:32.047 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, vif_id, id, rxd]
+2015-12-21 20:40:32.047 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.048 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.055 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vif_1m
+2015-12-21 20:40:32.055 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, vif_id, id, rxd]
+2015-12-21 20:40:32.056 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.056 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.063 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vif_2w
+2015-12-21 20:40:32.063 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, vif_id, id, rxd]
+2015-12-21 20:40:32.063 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.063 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.074 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vif_30min
+2015-12-21 20:40:32.075 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, vif_id, id, rxd]
+2015-12-21 20:40:32.075 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.075 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.081 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000261: Table found: bsperformance.vif_6h
+2015-12-21 20:40:32.082 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000037: Columns: [txd, t, vif_id, id, rxd]
+2015-12-21 20:40:32.082 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000108: Foreign keys: []
+2015-12-21 20:40:32.082 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] HHH000126: Indexes: [primary]
+2015-12-21 20:40:32.083 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] HHH000232: Schema update complete
+2015-12-21 20:40:32.085 INFO  [org.hibernate.cfg.Configuration] HHH000043: Configuring from resource: com/beyondsphere/config/hibernate-platform.cfg.xml
+2015-12-21 20:40:32.085 INFO  [org.hibernate.cfg.Configuration] HHH000040: Configuration resource: com/beyondsphere/config/hibernate-platform.cfg.xml
+2015-12-21 20:40:32.090 INFO  [org.hibernate.cfg.Configuration] HHH000041: Configured SessionFactory: null
+2015-12-21 20:40:32.092 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2015-12-21 20:40:32.093 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://133.133.135.9:3306/platform_test
+2015-12-21 20:40:32.093 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000046: Connection properties: {user=root, password=****, characterEncoding=UTF-8}
+2015-12-21 20:40:32.093 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH000006: Autocommit mode: false
+2015-12-21 20:40:32.094 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2015-12-21 20:40:32.094 WARN  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2015-12-21 20:40:32.147 INFO  [com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@231594e3 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@ab5b322 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60bhz9d1ijc3uu1jsavjr|33bf2602, idleConnectionTestPeriod -> 120, initialPoolSize -> 6, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 6, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@fa59f74b [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1ijc3uu1jsavjr|59db8216, jdbcUrl -> jdbc:mysql://133.133.135.9:3306/platform_test, properties -> {user=******, password=******, characterEncoding=UTF-8} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60bhz9d1ijc3uu1jsavjr|426a4301, numHelperThreads -> 3 ]
+2015-12-21 20:40:32.163 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2015-12-21 20:40:32.164 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-12-21 20:40:32.177 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-12-21 20:40:32.178 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] HHH000397: Using ASTQueryTranslatorFactory

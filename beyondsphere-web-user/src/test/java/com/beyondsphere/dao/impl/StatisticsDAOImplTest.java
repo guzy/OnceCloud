@@ -12,10 +12,10 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import com.beyondsphere.dao.StatisticsDAO;
-import com.beyondsphere.entity.OCStatistics;
-import com.beyondsphere.util.Utilities;
-import com.beyondsphere.model.StatisticsType;
+import com.oncecloud.dao.StatisticsDAO;
+import com.oncecloud.entity.OCStatistics;
+import com.oncecloud.model.StatisticsType;
+import com.oncecloud.util.Utilities;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath*:./com/beyondsphere/config/application-context.xml")

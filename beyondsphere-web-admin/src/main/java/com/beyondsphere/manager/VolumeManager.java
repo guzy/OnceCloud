@@ -8,7 +8,7 @@ package com.beyondsphere.manager;
 
 import java.util.List;
 
-import com.beyondsphere.entity.Volume;
+import com.oncecloud.entity.Volume;
 
 
 

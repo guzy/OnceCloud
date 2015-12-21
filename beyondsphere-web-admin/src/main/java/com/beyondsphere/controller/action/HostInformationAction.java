@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.beyondsphere.entity.HostInformation;
-import com.beyondsphere.model.ListModel;
 import com.beyondsphere.manager.HostInformationManager;
+import com.oncecloud.entity.HostInformation;
+import com.oncecloud.model.ListModel;
 
 /**
  * 

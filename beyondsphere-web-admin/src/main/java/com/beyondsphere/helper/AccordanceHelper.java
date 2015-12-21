@@ -11,13 +11,13 @@ import org.Xen.API.Connection;
 import org.Xen.API.VM;
 import org.springframework.stereotype.Component;
 
-import com.beyondsphere.core.constant.Constant;
-import com.beyondsphere.dao.VMDAO;
-import com.beyondsphere.entity.OCPool;
-import com.beyondsphere.entity.OCVM;
-import com.beyondsphere.model.VMStatus;
-import com.beyondsphere.service.PoolService;
-import com.beyondsphere.service.VMService;
+import com.oncecloud.core.constant.Constant;
+import com.oncecloud.dao.VMDAO;
+import com.oncecloud.entity.OCPool;
+import com.oncecloud.entity.OCVM;
+import com.oncecloud.model.VMStatus;
+import com.oncecloud.service.PoolService;
+import com.oncecloud.service.VMService;
 
 
 /**

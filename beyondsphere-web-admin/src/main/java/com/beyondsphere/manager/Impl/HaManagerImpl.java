@@ -11,26 +11,26 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
-import com.beyondsphere.entity.OCHa;
-import com.beyondsphere.entity.OCHost;
-import com.beyondsphere.entity.OCLog;
-import com.beyondsphere.entity.OCPool;
-import com.beyondsphere.entity.Power;
 import com.beyondsphere.manager.HaManager;
-import com.beyondsphere.core.PoolHACore;
-import com.beyondsphere.core.HostCore;
-import com.beyondsphere.log.LogAction;
-import com.beyondsphere.log.LogObject;
-import com.beyondsphere.log.LogRecord;
-import com.beyondsphere.log.LogRole;
-import com.beyondsphere.message.MessageUtil;
-import com.beyondsphere.service.DatacenterService;
-import com.beyondsphere.service.HaService;
-import com.beyondsphere.service.HostService;
-import com.beyondsphere.service.PoolService;
-import com.beyondsphere.service.PowerService;
-import com.beyondsphere.service.VMService;
-import com.beyondsphere.util.TimeUtils;
+import com.oncecloud.core.HostCore;
+import com.oncecloud.core.PoolHACore;
+import com.oncecloud.entity.OCHa;
+import com.oncecloud.entity.OCHost;
+import com.oncecloud.entity.OCLog;
+import com.oncecloud.entity.OCPool;
+import com.oncecloud.entity.Power;
+import com.oncecloud.log.LogAction;
+import com.oncecloud.log.LogObject;
+import com.oncecloud.log.LogRecord;
+import com.oncecloud.log.LogRole;
+import com.oncecloud.message.MessageUtil;
+import com.oncecloud.service.DatacenterService;
+import com.oncecloud.service.HaService;
+import com.oncecloud.service.HostService;
+import com.oncecloud.service.PoolService;
+import com.oncecloud.service.PowerService;
+import com.oncecloud.service.VMService;
+import com.oncecloud.util.TimeUtils;
 
 @Service("HaManager")
 public class HaManagerImpl implements HaManager {

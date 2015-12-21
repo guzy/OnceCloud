@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.beyondsphere.entity.OCUnitprice;
 import com.beyondsphere.manager.UnitpriceManager;
+import com.oncecloud.entity.OCUnitprice;
 
 @RequestMapping("unitPriceAction")
 @Controller
