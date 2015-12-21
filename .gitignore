@@ -1,6 +1,6 @@
-/.settings
+/.settings/*
 /.classpath
 /.project
 *.war
-*.jar
 *.class
+/target/*
