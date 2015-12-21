@@ -1,7 +1,0 @@
-repoUrl=http://192.168.207.129:2375
-pullCommand=docker -H tcp://192.168.207.129:2375 pull
-createCommand=docker -H tcp://192.168.207.129:2375 run -e DOCKER_HOST=$(hostname --all-ip-address | awk '{print $1}') -dP -p 8088
-registryUrl=192.168.207.129
-registryPort=5010
-registryUsername=root
-registryPwd=onceas

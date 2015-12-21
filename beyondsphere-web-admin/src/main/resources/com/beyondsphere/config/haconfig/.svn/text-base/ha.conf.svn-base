@@ -1,3 +1,0 @@
-com.beyondbackend.ha.core.configs.MySQLConfig=conf/db.conf
-com.beyondbackend.ha.core.configs.NoVNCConfig=conf/novnc.conf
-com.beyondbackend.ha.core.configs.PoolConfig=conf/pool.conf
