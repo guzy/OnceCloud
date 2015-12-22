@@ -1,0 +1,77 @@
+题目：虚拟机生命周期管理需求
+
+功能1：根据ISO创建虚拟机-->JSON应包含的内容：
+   Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+   CpuNum：CPU个数（Integer类型，最小为1-->后台需要判断，所有虚拟机CPU个数之和不能大于物理CPU的3倍）
+   MaxCpuNum：CPU个数（Integer类型,不能小于CpuNum，用于在线增减CPU用，Linux支持增减，Windows只支持在线增-->后台需要判断，所有虚拟机CPU个数之和不能大于物理CPU的3倍）
+   MemSize：内存大小（Integer类型，最小为512M-->后台需要判断，所有虚拟机内存大小之和不能大于物理内存大小）
+   MaxMemSize：内存大小（Integer类型，不能小于MemNum，用于在线增减MEM用，Linux支持增减，Windows只支持在线增-->后台需要判断，所有虚拟机内存大小之和不能大于物理内存大小）
+   DiskSize：硬盘大小（Integer类型，最小为20GB-->后台需要判断，空间是否足够可用）
+   DiskType：硬盘类型（Integer类型，1表示raw，2表示qcow2，3表示物理块设备，1为默认值）
+   SwitchType：交换机类型（Integer类型，1表示ovs, 2表示bridge，1表示默认值）
+   SwitchName：交换机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台必须存在）
+   IsoType：ISO类型（Integer类型，1表示光驱，2表示ISO文件，3表示网络）
+   IsoPath：ISO路径
+   Console：Console类型（Integer类型，1表示VNC，2表示Spice，1为默认值）
+   返回 True:False，如果是False,返回原因，如果是True
+
+功能2：根据虚拟机模版创建虚拟机-->JSON应包含的内容
+   Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+   Template：虚拟机模版（String类型）
+   返回 True:False，如果是False,返回原因
+
+功能3：启动虚拟机-->JSON应包含的内容
+   Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+   CpuNum：CPU个数（Integer类型，最小为1-->后台需要判断，所有虚拟机CPU个数之和不
+能大于物理CPU的3倍）
+   MemSize：内存大小（Integer类型，最小为512M-->后台需要判断，所有虚拟机内存大小
+之和不能大于物理内存大小）
+   SwitchType：交换机类型（Integer类型，1表示ovs, 2表示bridge，1表示默认值）
+   SwitchName：交换机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台必须存在）
+   Console：Console类型（Integer类型，1表示VNC，2表示Spice，1表示默认值）
+   ConsolePWD:Concosle密码（String类型，长度不能超过64个字符，只允许为大小写字母
+，数字>和下画线）
+   返回 True:False，如果是False,返回原因
+
+功能4：关闭虚拟机-->JSON应包含的内容
+    Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+    返回 True:False，如果是False,返回原因
+
+功能5：删除虚拟机-->JSON应包含的内容
+    Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+    返回 True:False,如果是False,返回原因
+
+功能6：添加虚拟机网卡（网卡最大为8个）-->JSON应包含的内容
+    Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+    SwitchType：交换机类型（Integer类型，1表示ovs, 2表示bridge，1表示默认值）
+    SwitchName：交换机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台必须存在）
+    返回NetName网卡名
+
+功能7：删除虚拟机网卡-->JSON应包含的内容
+    Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+    NetName：网卡名
+    返回 True:False，如果是False,返回原因
+
+功能8：增减虚拟机CPU-->JSON应包含的内容
+    Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+    CpuNum：CPU个数，不小于CpuNum,不大于MaxCpuNum
+    返回 True:False，如果是False,返回原因
+
+功能9：增减虚拟机Mem-->JSON应包含的内容
+    Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+    MemSize：Mem大小，不小于MemSize,不大于MaxMemSize
+    返回 True:False，如果是False,返回原因
+
+功能10：添加虚拟机Disk-->JSON应包含的内容
+    Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+    DiskSize：硬盘大小（Integer类型，最小为20GB-->后台需要判断，空间是否足够可用）
+    DiskType：硬盘类型（Integer类型，1表示raw，2表示qcow2，3表示物理块设备，1为默认值）
+    返回 True:False，如果是False,返回原因
+
+
+功能11：删除虚拟机Disk-->JSON应包含的内容
+    Name：虚拟机名字（String类型，长度不能超过64个字符，只允许为大小写字母，数字和下画线-->后台虚拟机名不允许重复）
+    DiskName：硬盘名，系统盘不允许删除
+
+
+
